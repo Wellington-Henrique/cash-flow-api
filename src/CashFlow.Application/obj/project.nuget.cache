@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RTYQYSpuYwlyhvwti30xGe1gPrn+2oqN/EB1hOXPqrlfRcxIVaKVGBYXoJixXvPirwshRjNQ9BPaESgPdSh9kQ==",
+  "dgSpecHash": "Lx15WNCdyCckE2h+8H8XovqUOapYFTt5Z7GhHvyR9YBnbOVh6qTzKskV43x8jkTp/kEqd9uynR6ZmKJCBAKEvQ==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\welli\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512"
+  ],
   "logs": []
 }
