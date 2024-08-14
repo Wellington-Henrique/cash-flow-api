@@ -16,12 +16,12 @@ namespace CashFlow.Application.UseCases.Expenses.Register
         {
             var titleIsEmpty = string.IsNullOrWhiteSpace(request.Title);
 
-            if ( titleIsEmpty )
+            if (titleIsEmpty)
             {
                 throw new ArgumentException("The title is required");
             }
 
-            if (request.Amount <= 0 )
+            if (request.Amount <= 0)
             {
                 throw new ArgumentException("The amount must be greater then zero");
             }
@@ -35,7 +35,7 @@ namespace CashFlow.Application.UseCases.Expenses.Register
 
             var paymentTypeIsValid = Enum.IsDefined(typeof(PaymentType), request.PaymentType);
 
-            if (paymentTypeIsValid == false )
+            if (paymentTypeIsValid == false)
             {
                 throw new ArgumentException("Payment type is not valid");
             }
