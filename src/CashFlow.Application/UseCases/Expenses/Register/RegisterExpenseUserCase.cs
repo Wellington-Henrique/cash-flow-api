@@ -30,7 +30,7 @@ namespace CashFlow.Application.UseCases.Expenses.Register
 
             if ( result > 0)
             {
-                throw new ArgumentException("Expenses cannot br for the future");
+                throw new ArgumentException("Expenses cannot be for the future");
             }
 
             var paymentTypeIsValid = Enum.IsDefined(typeof(PaymentType), request.PaymentType);

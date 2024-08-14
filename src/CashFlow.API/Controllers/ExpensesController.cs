@@ -11,9 +11,19 @@ namespace CashFlow.API.Controllers
         [HttpPost]
         public IActionResult Register([FromBody] RequestRegisterExpenseJson request) 
         {
-            var response = new RegisterExpenseUserCase().Execute(request);
-            
-            return Created(string.Empty, response);
+            try
+            {
+                var response = new RegisterExpenseUserCase().Execute(request);
+
+                return Created(string.Empty, response);
+
+            } catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            } catch
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "unknown error");
+            }
         }
     }
 }
