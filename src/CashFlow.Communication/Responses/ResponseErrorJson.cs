@@ -4,9 +4,14 @@
     {
         public ResponseErrorJson(string errorMessage)
         {
-            ErrorMessage = errorMessage;
+            ErrorMessages = [errorMessage];
         }
 
-        public string ErrorMessage { get; set; } = string.Empty;
+        public ResponseErrorJson(List<string> errorMessages)
+        {
+            ErrorMessages = errorMessages;
+        }
+
+        public List<string> ErrorMessages { get; set; }
     }
 }
