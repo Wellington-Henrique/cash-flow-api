@@ -7,16 +7,8 @@
       "RelativeMoniker": "D:0:0:{2A874F3E-00F9-402B-8D0C-BE9B94985127}|tests\\Validators.Tests\\Validators.Tests.csproj|solutionrelative:tests\\validators.tests\\expenses\\register\\registerexpensevalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A874F3E-00F9-402B-8D0C-BE9B94985127}|tests\\Validators.Tests\\Validators.Tests.csproj|d:\\projetos\\cashflow\\tests\\validators.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A874F3E-00F9-402B-8D0C-BE9B94985127}|tests\\Validators.Tests\\Validators.Tests.csproj|solutionrelative:tests\\validators.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CC8F96-C42A-49CE-8ED1-158CC6E90C95}|src\\CashFlow.API\\CashFlow.API.csproj|d:\\projetos\\cashflow\\src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CC8F96-C42A-49CE-8ED1-158CC6E90C95}|src\\CashFlow.API\\CashFlow.API.csproj|solutionrelative:src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7CC8F96-C42A-49CE-8ED1-158CC6E90C95}|src\\CashFlow.API\\CashFlow.API.csproj|d:\\projetos\\cashflow\\src\\cashflow.api\\middleware\\culturemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CC8F96-C42A-49CE-8ED1-158CC6E90C95}|src\\CashFlow.API\\CashFlow.API.csproj|solutionrelative:src\\cashflow.api\\middleware\\culturemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{120536C2-B4DD-485E-B820-C72EDEC86F47}|tests\\CommonTestUtilities\\CommonTestUtilities.csproj|d:\\projetos\\cashflow\\tests\\commontestutilities\\requests\\requestregisterexpensejsonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{120536C2-B4DD-485E-B820-C72EDEC86F47}|tests\\CommonTestUtilities\\CommonTestUtilities.csproj|solutionrelative:tests\\commontestutilities\\requests\\requestregisterexpensejsonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,54 +62,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequestRegisterExpenseJsonBuilder.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\CommonTestUtilities\\Requests\\RequestRegisterExpenseJsonBuilder.cs",
+              "RelativeDocumentMoniker": "tests\\CommonTestUtilities\\Requests\\RequestRegisterExpenseJsonBuilder.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\CommonTestUtilities\\Requests\\RequestRegisterExpenseJsonBuilder.cs",
+              "RelativeToolTip": "tests\\CommonTestUtilities\\Requests\\RequestRegisterExpenseJsonBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:54:09.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "RegisterExpenseValidatorTests.cs",
               "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\Validators.Tests\\Expenses\\Register\\RegisterExpenseValidatorTests.cs",
               "RelativeDocumentMoniker": "tests\\Validators.Tests\\Expenses\\Register\\RegisterExpenseValidatorTests.cs",
               "ToolTip": "D:\\Projetos\\CashFlow\\tests\\Validators.Tests\\Expenses\\Register\\RegisterExpenseValidatorTests.cs",
               "RelativeToolTip": "tests\\Validators.Tests\\Expenses\\Register\\RegisterExpenseValidatorTests.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAgAAAAdAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAxwBEAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T00:28:17.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\Validators.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "tests\\Validators.Tests\\UnitTest1.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\Validators.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "tests\\Validators.Tests\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T00:25:25.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExpensesController.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.API\\Controllers\\ExpensesController.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.API\\Controllers\\ExpensesController.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.API\\Controllers\\ExpensesController.cs",
-              "RelativeToolTip": "src\\CashFlow.API\\Controllers\\ExpensesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T00:18:52.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CultureMiddleware.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.API\\Middleware\\CultureMiddleware.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.API\\Middleware\\CultureMiddleware.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.API\\Middleware\\CultureMiddleware.cs",
-              "RelativeToolTip": "src\\CashFlow.API\\Middleware\\CultureMiddleware.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAYwCIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T00:10:27.339Z",
               "EditorCaption": ""
             }
           ]
