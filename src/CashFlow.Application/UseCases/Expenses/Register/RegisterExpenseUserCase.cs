@@ -30,7 +30,7 @@ namespace CashFlow.Application.UseCases.Expenses.Register
 
             _expensesRepository.Add(entity);
 
-            return new ResponseRegisterExpenseJson();
+            return new ResponseRegisterExpenseJson() { };
         }
 
         private void Validate (RequestRegisterExpenseJson request)
