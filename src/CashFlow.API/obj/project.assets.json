@@ -375,7 +375,8 @@
           "CashFlow.Communication": "1.0.0",
           "CashFlow.Domain": "1.0.0",
           "CashFlow.Exception": "1.0.0",
-          "FluentValidation": "11.9.2"
+          "FluentValidation": "11.9.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
         },
         "compile": {
           "bin/placeholder/CashFlow.Application.dll": {}

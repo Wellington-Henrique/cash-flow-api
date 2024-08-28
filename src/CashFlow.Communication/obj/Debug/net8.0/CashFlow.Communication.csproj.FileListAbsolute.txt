@@ -10,9 +10,3 @@ D:\Projetos\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Commun
 D:\Projetos\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\refint\CashFlow.Communication.dll
 D:\Projetos\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.pdb
 D:\Projetos\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\ref\CashFlow.Communication.dll
-D:\Projetos\CashFlow\src\CashFlow.Communication\bin\Debug\net8.0\CashFlow.Domain.dll
-D:\Projetos\CashFlow\src\CashFlow.Communication\bin\Debug\net8.0\CashFlow.Infrastructure.dll
-D:\Projetos\CashFlow\src\CashFlow.Communication\bin\Debug\net8.0\CashFlow.Infrastructure.pdb
-D:\Projetos\CashFlow\src\CashFlow.Communication\bin\Debug\net8.0\CashFlow.Domain.pdb
-D:\Projetos\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.csproj.AssemblyReference.cache
-D:\Projetos\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.FD54FC17.Up2Date

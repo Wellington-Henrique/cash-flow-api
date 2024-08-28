@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\Projetos\\CashFlow\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D7CC8F96-C42A-49CE-8ED1-158CC6E90C95}|src\\CashFlow.API\\CashFlow.API.csproj|d:\\projetos\\cashflow\\src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CC8F96-C42A-49CE-8ED1-158CC6E90C95}|src\\CashFlow.API\\CashFlow.API.csproj|solutionrelative:src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D0C2C1A1-FE83-44B3-835C-758E99785225}|src\\CashFlow.Application\\CashFlow.Application.csproj|d:\\projetos\\cashflow\\src\\cashflow.application\\usecases\\expenses\\register\\registerexpenseusercase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0C2C1A1-FE83-44B3-835C-758E99785225}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\expenses\\register\\registerexpenseusercase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C2C1A1-FE83-44B3-835C-758E99785225}|src\\CashFlow.Application\\CashFlow.Application.csproj|d:\\projetos\\cashflow\\src\\cashflow.application\\usecases\\expenses\\register\\registerexpensevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C2C1A1-FE83-44B3-835C-758E99785225}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\expenses\\register\\registerexpensevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{362F08E8-3DD0-4F9F-AD9B-B3EFE6162187}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|d:\\projetos\\cashflow\\src\\cashflow.communication\\requests\\requestregisterexpensejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{362F08E8-3DD0-4F9F-AD9B-B3EFE6162187}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|solutionrelative:src\\cashflow.communication\\requests\\requestregisterexpensejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA47B33F-D68E-4531-B0B4-30E3C2A9C09F}|src\\CashFlowDomain\\CashFlow.Domain.csproj|d:\\projetos\\cashflow\\src\\cashflowdomain\\entities\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA47B33F-D68E-4531-B0B4-30E3C2A9C09F}|src\\CashFlowDomain\\CashFlow.Domain.csproj|solutionrelative:src\\cashflowdomain\\entities\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7CC8F96-C42A-49CE-8ED1-158CC6E90C95}|src\\CashFlow.API\\CashFlow.API.csproj|d:\\projetos\\cashflow\\src\\cashflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7CC8F96-C42A-49CE-8ED1-158CC6E90C95}|src\\CashFlow.API\\CashFlow.API.csproj|solutionrelative:src\\cashflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,53 +67,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RegisterExpenseUserCase.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUserCase.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUserCase.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUserCase.cs",
-              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUserCase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAQwAQAAAAAAAAA",
+              "Title": "ExpensesController.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.API\\Controllers\\ExpensesController.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.API\\Controllers\\ExpensesController.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.API\\Controllers\\ExpensesController.cs",
+              "RelativeToolTip": "src\\CashFlow.API\\Controllers\\ExpensesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T02:29:47.992Z",
+              "WhenOpened": "2024-08-28T00:03:06.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RegisterExpenseValidator.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseValidator.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseValidator.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseValidator.cs",
-              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "RegisterExpenseUserCase.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUserCase.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUserCase.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUserCase.cs*",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUserCase.cs*",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T02:29:46.488Z",
+              "WhenOpened": "2024-08-27T23:59:18.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RequestRegisterExpenseJson.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.Communication\\Requests\\RequestRegisterExpenseJson.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Communication\\Requests\\RequestRegisterExpenseJson.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.Communication\\Requests\\RequestRegisterExpenseJson.cs",
-              "RelativeToolTip": "src\\CashFlow.Communication\\Requests\\RequestRegisterExpenseJson.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.API\\Program.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.API\\Program.cs",
+              "RelativeToolTip": "src\\CashFlow.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T02:28:48.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Expense.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlowDomain\\Entities\\Expense.cs",
-              "RelativeDocumentMoniker": "src\\CashFlowDomain\\Entities\\Expense.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlowDomain\\Entities\\Expense.cs",
-              "RelativeToolTip": "src\\CashFlowDomain\\Entities\\Expense.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T02:24:54.993Z",
+              "WhenOpened": "2024-08-27T23:47:47.686Z",
               "EditorCaption": ""
             }
           ]
