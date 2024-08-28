@@ -18,7 +18,7 @@ namespace CashFlow.Application.UseCases.Expenses.Register
             _unitOfWork = unitOfWork;
         }
 
-        public ResponseRegisterExpenseJson Execute(RequestRegisterExpenseJson request)
+        public async Task<ResponseRegisterExpenseJson> Execute(RequestRegisterExpenseJson request)
         {
             Validate(request);
 
@@ -31,8 +31,8 @@ namespace CashFlow.Application.UseCases.Expenses.Register
                 Title = request.Title,
             };
 
-            _expensesRepository.Add(entity);
-            _unitOfWork.Commit();
+            await _expensesRepository.Add(entity);
+            await _unitOfWork.Commit();
 
             return new ResponseRegisterExpenseJson() { };
         }
