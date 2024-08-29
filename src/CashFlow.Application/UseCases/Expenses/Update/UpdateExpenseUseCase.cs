@@ -3,6 +3,7 @@ using CashFlow.Communication.Requests;
 using CashFlow.Domain.Entities;
 using CashFlow.Domain.Repositories;
 using CashFlow.Domain.Repositories.Expenses;
+using CashFlow.Exception;
 using CashFlow.Exception.ExceptionsBase;
 using System.Data;
 
@@ -25,9 +26,14 @@ namespace CashFlow.Application.UseCases.Expenses.Update
         {
             Validate(request);
 
-            var entity = _mapper.Map<Expense>(request);
+            var entity = await _expensesRepository.GetById(id);
 
+            if (entity is null)
+                throw new NotFoundException(ResourceErrorMessages.EXPENSE_NOT_FOUND);
+
+            _mapper.Map(request, entity);
             _expensesRepository.Update(entity);
+
             await _unitOfWork.Commit();
         }
 
