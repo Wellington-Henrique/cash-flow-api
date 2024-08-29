@@ -1,8 +1,8 @@
 # .NET
-*/**/bin
-*/**/obj
-*/**/out
-*/**/packages
+**/bin/
+**/obj/
+**/out/
+**/packages/
 
 *.log
 
