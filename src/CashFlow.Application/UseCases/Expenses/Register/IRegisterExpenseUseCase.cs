@@ -3,7 +3,7 @@ using CashFlow.Communication.Responses;
 
 namespace CashFlow.Application.UseCases.Expenses.Register
 {
-    public interface IRegisterExpenseUserCase
+    public interface IRegisterExpenseUseCase
     {
         public Task<ResponseRegisterExpenseJson> Execute(RequestRegisterExpenseJson request);
     }
