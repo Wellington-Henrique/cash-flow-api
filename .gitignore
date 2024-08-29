@@ -1,8 +1,15 @@
 # .NET
-src/**/bin/
-src/**/obj/
-src/**/out/
-src/**/packages/
+*/**/bin
+*/**/obj
+*/**/out
+*/**/packages
+
+*.log
+
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
 
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
