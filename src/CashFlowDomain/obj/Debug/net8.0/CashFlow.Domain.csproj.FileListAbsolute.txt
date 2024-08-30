@@ -10,3 +10,8 @@ D:\Projetos\CashFlow\src\CashFlowDomain\obj\Debug\net8.0\CashFlow.Domain.dll
 D:\Projetos\CashFlow\src\CashFlowDomain\obj\Debug\net8.0\refint\CashFlow.Domain.dll
 D:\Projetos\CashFlow\src\CashFlowDomain\obj\Debug\net8.0\CashFlow.Domain.pdb
 D:\Projetos\CashFlow\src\CashFlowDomain\obj\Debug\net8.0\ref\CashFlow.Domain.dll
+D:\Projetos\CashFlow\src\CashFlowDomain\bin\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll
+D:\Projetos\CashFlow\src\CashFlowDomain\obj\Debug\net8.0\CashFlow.Domain.Reports.ResourceReportGenerationMessages.resources
+D:\Projetos\CashFlow\src\CashFlowDomain\obj\Debug\net8.0\CashFlow.Domain.Reports.ResourceReportGenerationMessages.pt-BR.resources
+D:\Projetos\CashFlow\src\CashFlowDomain\obj\Debug\net8.0\CashFlow.Domain.csproj.GenerateResource.cache
+D:\Projetos\CashFlow\src\CashFlowDomain\obj\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll

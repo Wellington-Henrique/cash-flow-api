@@ -5,7 +5,7 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Excel
 {
     internal class GenerateExpenseReportExcelUseCase : IGenerateExpenseReportExcelUseCase
     {
-        public Task<byte[]> Execute(DateOnly month)
+        public async Task<byte[]> Execute(DateOnly month)
         {
             var workbook = new XLWorkbook();
 
@@ -14,16 +14,23 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Excel
             workbook.Style.Font.FontName = "Times New Roman";
 
             var worksheet = workbook.Worksheets.Add(month.ToString("Y"));
+
             InsertHeader(worksheet);
+
+            var file = new MemoryStream();
+
+            workbook.SaveAs(file);
+
+            return file.ToArray();
         }
 
         private void InsertHeader(IXLWorksheet worksheet)
         {
-            worksheet.Cell(0, 0).Value = ResourceReportGenerationMessages.DATE;
-            worksheet.Cell(0, 1).Value = ResourceReportGenerationMessages.TITLE;
-            worksheet.Cell(0, 2).Value = ResourceReportGenerationMessages.DESCRIPTION;
-            worksheet.Cell(0, 3).Value = ResourceReportGenerationMessages.PAYMENT_TYPE;
-            worksheet.Cell(0, 4).Value = ResourceReportGenerationMessages.AMOUNT;
+            worksheet.Cell("A1").Value = ResourceReportGenerationMessages.DATE;
+            worksheet.Cell("B1").Value = ResourceReportGenerationMessages.TITLE;
+            worksheet.Cell("C1").Value = ResourceReportGenerationMessages.DESCRIPTION;
+            worksheet.Cell("D1").Value = ResourceReportGenerationMessages.PAYMENT_TYPE;
+            worksheet.Cell("E1").Value = ResourceReportGenerationMessages.AMOUNT;
 
             worksheet.Cells("A1:E1").Style.Font.Bold = true;
             worksheet.Cells("A1:E1").Style.Fill.BackgroundColor = XLColor.FromHtml("#F5C2B6");

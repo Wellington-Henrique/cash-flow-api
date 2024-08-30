@@ -14,3 +14,4 @@ D:\Projetos\CashFlow\src\CashFlow.Infraestruture\obj\Debug\net8.0\CashFlow.Infra
 D:\Projetos\CashFlow\src\CashFlow.Infraestruture\obj\Debug\net8.0\refint\CashFlow.Infrastructure.dll
 D:\Projetos\CashFlow\src\CashFlow.Infraestruture\obj\Debug\net8.0\CashFlow.Infrastructure.pdb
 D:\Projetos\CashFlow\src\CashFlow.Infraestruture\obj\Debug\net8.0\ref\CashFlow.Infrastructure.dll
+D:\Projetos\CashFlow\src\CashFlow.Infraestruture\bin\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll
