@@ -8,6 +8,7 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Excel
     internal class GenerateExpenseReportExcelUseCase : IGenerateExpenseReportExcelUseCase
     {
         private readonly IExpensesReadOnlyRepository _expensesReadOnlyRepository;
+        private const string CURRENCY_SYMBOL = "€";
 
         public GenerateExpenseReportExcelUseCase(IExpensesReadOnlyRepository expensesReadOnlyRepository)
         {
@@ -40,10 +41,12 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Excel
                 worksheet.Cell($"C{line}").Value = expense.Description;
                 worksheet.Cell($"D{line}").Value = ConvertPaymentType(expense.PaymentType);
                 worksheet.Cell($"E{line}").Value = expense.Amount;
+                worksheet.Cell($"E{line}").Style.NumberFormat.Format = $"-{CURRENCY_SYMBOL} #,##0.00";
             }
 
             var file = new MemoryStream();
 
+            worksheet.Columns().AdjustToContents();
             workbook.SaveAs(file);
 
             return file.ToArray();
