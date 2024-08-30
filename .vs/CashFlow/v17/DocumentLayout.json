@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\Projetos\\CashFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C18556C4-680D-49EF-B518-3223E1EC2428}|src\\CashFlow.Infraestruture\\CashFlow.Infrastructure.csproj|d:\\projetos\\cashflow\\src\\cashflow.infraestruture\\dataaccess\\repositories\\expenses\\expensesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C18556C4-680D-49EF-B518-3223E1EC2428}|src\\CashFlow.Infraestruture\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infraestruture\\dataaccess\\repositories\\expenses\\expensesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D0C2C1A1-FE83-44B3-835C-758E99785225}|src\\CashFlow.Application\\CashFlow.Application.csproj|d:\\projetos\\cashflow\\src\\cashflow.application\\usecases\\expenses\\reports\\excel\\generateexpensereportexcelusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0C2C1A1-FE83-44B3-835C-758E99785225}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\expenses\\reports\\excel\\generateexpensereportexcelusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,38 +63,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ExpensesRepository.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infraestruture\\DataAccess\\Repositories\\Expenses\\ExpensesRepository.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Infraestruture\\DataAccess\\Repositories\\Expenses\\ExpensesRepository.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infraestruture\\DataAccess\\Repositories\\Expenses\\ExpensesRepository.cs",
-              "RelativeToolTip": "src\\CashFlow.Infraestruture\\DataAccess\\Repositories\\Expenses\\ExpensesRepository.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAwwEgAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T00:15:27.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "GenerateExpenseReportExcelUseCase.cs",
               "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Reports\\Excel\\GenerateExpenseReportExcelUseCase.cs",
               "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Expenses\\Reports\\Excel\\GenerateExpenseReportExcelUseCase.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Reports\\Excel\\GenerateExpenseReportExcelUseCase.cs*",
-              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Expenses\\Reports\\Excel\\GenerateExpenseReportExcelUseCase.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Reports\\Excel\\GenerateExpenseReportExcelUseCase.cs",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Expenses\\Reports\\Excel\\GenerateExpenseReportExcelUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T00:14:07.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ReportController.cs",
               "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.API\\Controllers\\ReportController.cs",
               "RelativeDocumentMoniker": "src\\CashFlow.API\\Controllers\\ReportController.cs",
               "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.API\\Controllers\\ReportController.cs",
               "RelativeToolTip": "src\\CashFlow.API\\Controllers\\ReportController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T00:01:03.608Z",
               "EditorCaption": ""

@@ -17,6 +17,8 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Excel
         {
             var expenses = await _expensesReadOnlyRepository.FilterByMonth(month);
 
+            if (expenses.Count == 0) return [];
+
             var workbook = new XLWorkbook();
 
             workbook.Author = "Wellington Henrique";
