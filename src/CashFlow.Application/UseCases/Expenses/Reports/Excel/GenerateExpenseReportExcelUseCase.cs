@@ -1,12 +1,22 @@
 ﻿using CashFlow.Domain.Reports;
+using CashFlow.Domain.Repositories.Expenses;
 using ClosedXML.Excel;
 
 namespace CashFlow.Application.UseCases.Expenses.Reports.Excel
 {
     internal class GenerateExpenseReportExcelUseCase : IGenerateExpenseReportExcelUseCase
     {
+        private readonly IExpensesReadOnlyRepository _expensesReadOnlyRepository;
+
+        public GenerateExpenseReportExcelUseCase(IExpensesReadOnlyRepository expensesReadOnlyRepository)
+        {
+            _expensesReadOnlyRepository = expensesReadOnlyRepository;
+        }
+
         public async Task<byte[]> Execute(DateOnly month)
         {
+            var expenses = await _expensesReadOnlyRepository.FilterByMonth(month);
+
             var workbook = new XLWorkbook();
 
             workbook.Author = "Wellington Henrique";

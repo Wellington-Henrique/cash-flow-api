@@ -58,4 +58,19 @@ internal class ExpensesRepository :
     {
         _dbContext.Expenses.Update(entity);
     }
+
+    public async Task<List<Expense>> FilterByMonth(DateOnly date)
+    {
+        var startDate = new DateTime(year: date.Year, month: date.Month, day: 1).Date;
+        var day = DateTime.DaysInMonth(startDate.Year, startDate.Month);
+
+        var endDate = new DateTime(year: date.Year, month: date.Month, day: day, hour: 23, minute: 59, second: 59);
+
+        return await _dbContext.Expenses
+                                .AsNoTracking()
+                                .Where(expense => expense.Date >= startDate && expense.Date <= endDate)
+                                .OrderByDescending(expense => expense.Date)
+                                .ThenByDescending(expense => expense.Title)
+                                .ToListAsync();
+    }
 }
