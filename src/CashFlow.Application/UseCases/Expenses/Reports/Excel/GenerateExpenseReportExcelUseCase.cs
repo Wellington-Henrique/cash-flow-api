@@ -21,7 +21,9 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Excel
 
             if (expenses.Count == 0) return [];
 
-            var workbook = new XLWorkbook();
+            // O using garante que não é necessário usar o workbook.Dispose() ao final deste bloco
+            // liberando recursos do sistema operacional
+            using var workbook = new XLWorkbook();
 
             workbook.Author = "Wellington Henrique";
             workbook.Style.Font.FontSize = 12;
@@ -48,7 +50,7 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Excel
 
             worksheet.Columns().AdjustToContents();
             workbook.SaveAs(file);
-
+            //workbook.Dispose();
             return file.ToArray();
         }
 
