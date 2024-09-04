@@ -29,6 +29,19 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Pdf
             var document = CreateDocument(month);
             var page = CreatePage(document);
 
+            var table = page.AddTable();
+            table.AddColumn();
+            table.AddColumn();
+
+            var row = table.AddRow();
+
+            row.Cells[0].AddImage("D:\\Projetos\\CashFlow\\profile-pic.png");
+            row.Cells[1].AddParagraph("Olá, Wellington!");
+            row.Cells[1].Format.Font = new Font { Name = FontHelper.RALEWAY_BLACK, Size = 16 };
+
+
+
+
             var paragraph = page.AddParagraph();
             var title = string.Format(ResourceReportGenerationMessages.TOTAL_SPENT_IN, month.ToString("Y"));
             
