@@ -31,18 +31,23 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Pdf
 
             var table = page.AddTable();
             table.AddColumn();
-            table.AddColumn();
+            table.AddColumn("300");
 
             var row = table.AddRow();
 
             row.Cells[0].AddImage("D:\\Projetos\\CashFlow\\profile-pic.png");
             row.Cells[1].AddParagraph("Olá, Wellington!");
             row.Cells[1].Format.Font = new Font { Name = FontHelper.RALEWAY_BLACK, Size = 16 };
+            row.Cells[1].VerticalAlignment = MigraDoc.DocumentObjectModel.Tables.VerticalAlignment.Center;
 
 
 
 
             var paragraph = page.AddParagraph();
+
+            paragraph.Format.SpaceBefore = "40";
+            paragraph.Format.SpaceAfter = "40";
+
             var title = string.Format(ResourceReportGenerationMessages.TOTAL_SPENT_IN, month.ToString("Y"));
             
             paragraph.AddFormattedText(title, new Font { Name = FontHelper.RALEWAY_REGULAR, Size = 15 });
