@@ -71,3 +71,4 @@ D:\Projetos\CashFlow\src\CashFlow.API\bin\Debug\net8.0\de\MigraDoc.Rendering.res
 D:\Projetos\CashFlow\src\CashFlow.API\bin\Debug\net8.0\de\MigraDoc.RtfRendering.resources.dll
 D:\Projetos\CashFlow\src\CashFlow.API\bin\Debug\net8.0\de\PdfSharp.Charting.resources.dll
 D:\Projetos\CashFlow\src\CashFlow.API\bin\Debug\net8.0\de\PdfSharp.resources.dll
+D:\Projetos\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Logo\logo.png
