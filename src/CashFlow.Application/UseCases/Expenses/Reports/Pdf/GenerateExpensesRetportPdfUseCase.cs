@@ -44,7 +44,37 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Pdf
             {
                 var table = CreateExpenseTable(page);
 
+                var row = table.AddRow();
+                row.Height = 25;
+
+                row.Cells[0].AddParagraph(expense.Title);
+                row.Cells[0].Shading.Color = ColorsHelper.RED_LIGHT;
+                row.Cells[0].VerticalAlignment = VerticalAlignment.Center;
+                row.Cells[0].MergeRight = 2;
+                row.Cells[0].Format.LeftIndent = 20;
+
+                row.Format.Font = new Font { 
+                                        Name = FontHelper.RALEWAY_BLACK, 
+                                        Size = 14, 
+                                        Color =  ColorsHelper.BLACK 
+                                    };
+
+                row.Cells[3].AddParagraph(ResourceReportGenerationMessages.AMOUNT);
+                row.Cells[3].Shading.Color = ColorsHelper.RED_DARK;
+                row.Cells[3].VerticalAlignment = VerticalAlignment.Center;
+
+                row.Format.Font = new Font
+                {
+                    Name = FontHelper.RALEWAY_BLACK,
+                    Size = 14,
+                    Color = ColorsHelper.WHITE
+                };
+
                 new Font { Color = ColorsHelper.RED_LIGHT };
+
+                row = table.AddRow();
+                row.Height = 30;
+                row.Borders.Visible = false;
             }
 
             return RenderDocument(document);
