@@ -65,6 +65,26 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Pdf
 
                 AddAmountForExpense(row.Cells[3], expense.Amount);
 
+                if (string.IsNullOrWhiteSpace(expense.Description) == false)
+                {
+                    var description = table.AddRow();
+                    description.Height = HEIGHT_ROW_EXPENSE_TABLE;
+                    description.Cells[0].AddParagraph(expense.Description);
+                    description.Cells[0].Shading.Color = ColorsHelper.GREEN_LIGHT;
+                    description.Cells[0].VerticalAlignment = VerticalAlignment.Center;
+                    description.Cells[0].MergeRight = 2;
+                    description.Cells[0].Format.LeftIndent = 20;
+                   
+                    description.Cells[0].Format.Font = new Font
+                    {
+                        Name = FontHelper.WORKSANS_REGULAR,
+                        Size = 10,
+                        Color = ColorsHelper.BLACK
+                    };
+
+                    row.Cells[3].MergeDown = 1;
+                }
+
                 AddWhiteSpace(table);
             }
 
