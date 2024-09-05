@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D7CC8F96-C42A-49CE-8ED1-158CC6E90C95}|src\\CashFlow.API\\CashFlow.API.csproj|d:\\projetos\\cashflow\\src\\cashflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7CC8F96-C42A-49CE-8ED1-158CC6E90C95}|src\\CashFlow.API\\CashFlow.API.csproj|solutionrelative:src\\cashflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C18556C4-680D-49EF-B518-3223E1EC2428}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|d:\\projetos\\cashflow\\src\\cashflow.infrastructure\\depenenceinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C18556C4-680D-49EF-B518-3223E1EC2428}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\depenenceinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -68,22 +64,10 @@
               "RelativeDocumentMoniker": "src\\CashFlow.API\\Program.cs",
               "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.API\\Program.cs",
               "RelativeToolTip": "src\\CashFlow.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T01:53:38.295Z",
+              "WhenOpened": "2024-09-05T23:24:34.417Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DepenenceInjectionExtension.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infrastructure\\DepenenceInjectionExtension.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\DepenenceInjectionExtension.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infrastructure\\DepenenceInjectionExtension.cs",
-              "RelativeToolTip": "src\\CashFlow.Infrastructure\\DepenenceInjectionExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T01:58:46.357Z"
             }
           ]
         }

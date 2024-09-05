@@ -1,3 +1,4 @@
+D:\Projetos\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\Logo\logo.png
 D:\Projetos\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\CashFlow.Application.deps.json
 D:\Projetos\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\CashFlow.Application.dll
 D:\Projetos\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\CashFlow.Application.pdb
@@ -7,6 +8,8 @@ D:\Projetos\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\CashFlow.Exceptio
 D:\Projetos\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\CashFlow.Communication.pdb
 D:\Projetos\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\CashFlow.Exception.pdb
 D:\Projetos\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\CashFlow.Domain.pdb
+D:\Projetos\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\pt-BR\CashFlow.Exception.resources.dll
+D:\Projetos\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll
 D:\Projetos\CashFlow\src\CashFlow.Application\obj\Debug\net8.0\CashFlow.Application.csproj.AssemblyReference.cache
 D:\Projetos\CashFlow\src\CashFlow.Application\obj\Debug\net8.0\CashFlow.Application.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projetos\CashFlow\src\CashFlow.Application\obj\Debug\net8.0\CashFlow.Application.AssemblyInfoInputs.cache
@@ -18,6 +21,3 @@ D:\Projetos\CashFlow\src\CashFlow.Application\obj\Debug\net8.0\CashFlow.Applicat
 D:\Projetos\CashFlow\src\CashFlow.Application\obj\Debug\net8.0\refint\CashFlow.Application.dll
 D:\Projetos\CashFlow\src\CashFlow.Application\obj\Debug\net8.0\CashFlow.Application.pdb
 D:\Projetos\CashFlow\src\CashFlow.Application\obj\Debug\net8.0\ref\CashFlow.Application.dll
-D:\Projetos\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\pt-BR\CashFlow.Exception.resources.dll
-D:\Projetos\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll
-D:\Projetos\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\Logo\logo.png
