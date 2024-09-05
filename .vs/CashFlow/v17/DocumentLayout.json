@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Projetos\\CashFlow\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3B80038F-459C-4A32-987D-BBC9FB2B6391}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|d:\\projetos\\cashflow\\src\\cashflow.infrastructure\\migrations\\databasemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B80038F-459C-4A32-987D-BBC9FB2B6391}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\migrations\\databasemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D7CC8F96-C42A-49CE-8ED1-158CC6E90C95}|src\\CashFlow.API\\CashFlow.API.csproj|d:\\projetos\\cashflow\\src\\cashflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7CC8F96-C42A-49CE-8ED1-158CC6E90C95}|src\\CashFlow.API\\CashFlow.API.csproj|solutionrelative:src\\cashflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -59,14 +63,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DataBaseMigration.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infrastructure\\Migrations\\DataBaseMigration.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\Migrations\\DataBaseMigration.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infrastructure\\Migrations\\DataBaseMigration.cs",
+              "RelativeToolTip": "src\\CashFlow.Infrastructure\\Migrations\\DataBaseMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T23:46:31.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.API\\Program.cs",
               "RelativeDocumentMoniker": "src\\CashFlow.API\\Program.cs",
               "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.API\\Program.cs",
               "RelativeToolTip": "src\\CashFlow.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T23:24:34.417Z",
+              "WhenOpened": "2024-09-05T23:42:43.222Z",
               "EditorCaption": ""
             }
           ]
