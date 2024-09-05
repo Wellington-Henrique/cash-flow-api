@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\CashFlow\\src\\CashFlow.Infraestruture\\CashFlow.Infrastructure.csproj": {}
+    "D:\\Projetos\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\CashFlow\\src\\CashFlow.Infraestruture\\CashFlow.Infrastructure.csproj": {
+    "D:\\Projetos\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infraestruture\\CashFlow.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
         "projectName": "CashFlow.Infrastructure",
-        "projectPath": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infraestruture\\CashFlow.Infrastructure.csproj",
+        "projectPath": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\welli\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infraestruture\\obj\\",
+        "outputPath": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\welli\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -48,6 +48,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
