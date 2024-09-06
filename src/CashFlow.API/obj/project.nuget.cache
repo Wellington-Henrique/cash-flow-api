@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vCnmSW5wCVn9qPwDL6VL1uQVT6vb0CR6bo7vxKzG9HfTJHSylg5vEmmkXCjkO+ptthBJ9mR9lWrK/SKFposqlA==",
+  "dgSpecHash": "IIDZOr5BzsPHqf3cZx7JxU2kWLAzoHW7V5eQMnWjlj9Pa7mzUqsv4Dmj9YK6gYiitRNX6pLIQoJweAAXKNiaMQ==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\CashFlow\\src\\CashFlow.API\\CashFlow.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\welli\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\welli\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\welli\\.nuget\\packages\\closedxml\\0.102.3\\closedxml.0.102.3.nupkg.sha512",
     "C:\\Users\\welli\\.nuget\\packages\\documentformat.openxml\\2.16.0\\documentformat.openxml.2.16.0.nupkg.sha512",
     "C:\\Users\\welli\\.nuget\\packages\\excelnumberformat\\1.1.0\\excelnumberformat.1.1.0.nupkg.sha512",

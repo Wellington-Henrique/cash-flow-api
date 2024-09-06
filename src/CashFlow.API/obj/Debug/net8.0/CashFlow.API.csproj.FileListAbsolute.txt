@@ -139,3 +139,4 @@ D:\Projetos\CashFlow\src\CashFlow.API\obj\Debug\net8.0\refint\CashFlow.API.dll
 D:\Projetos\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.pdb
 D:\Projetos\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.genruntimeconfig.cache
 D:\Projetos\CashFlow\src\CashFlow.API\obj\Debug\net8.0\ref\CashFlow.API.dll
+D:\Projetos\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.MvcApplicationPartsAssemblyInfo.cs
