@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "O7KIcIK2eOPPm6GFLKs8ImkpaWUNrgHg8hoX4e2aDcoE8ww1Wb3ZYT9+Faf6JPtBvGZccC12OFKc7C56IhevxA==",
+  "dgSpecHash": "xe8drk958G2/LbX5jkheb0AbbhaRjmnnIEbkU0tBEILB65ZczvzZ8vy8H5Xe6U5/8jksaaRe4Mjfm7l7Azt5pg==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\welli\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\welli\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.8\\microsoft.entityframeworkcore.8.0.8.nupkg.sha512",
     "C:\\Users\\welli\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.8\\microsoft.entityframeworkcore.abstractions.8.0.8.nupkg.sha512",
     "C:\\Users\\welli\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.8\\microsoft.entityframeworkcore.analyzers.8.0.8.nupkg.sha512",
