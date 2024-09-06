@@ -106,6 +106,15 @@ namespace CashFlow.Exception {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Your password should be a minimum of 8 characters, containing at least one uppercase letter, one lowercase letter, one number, and one special character (e.g., !, ?, *, .)..
+        /// </summary>
+        public static string INVALID_PASSWORD {
+            get {
+                return ResourceManager.GetString("INVALID_PASSWORD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a The name is required..
         /// </summary>
         public static string NAME_EMPTY {
