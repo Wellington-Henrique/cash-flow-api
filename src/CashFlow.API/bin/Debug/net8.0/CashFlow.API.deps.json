@@ -1382,6 +1382,9 @@
         }
       },
       "CashFlow.Communication/1.0.0": {
+        "dependencies": {
+          "CashFlow.Exception": "1.0.0"
+        },
         "runtime": {
           "CashFlow.Communication.dll": {}
         }

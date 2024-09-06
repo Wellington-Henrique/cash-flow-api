@@ -207,7 +207,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Projetos\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj": {
+                "projectPath": "D:\\Projetos\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -7,14 +7,32 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "CashFlow.Communication/1.0.0": {
+        "dependencies": {
+          "CashFlow.Exception": "1.0.0"
+        },
         "runtime": {
           "CashFlow.Communication.dll": {}
+        }
+      },
+      "CashFlow.Exception/1.0.0": {
+        "runtime": {
+          "CashFlow.Exception.dll": {}
+        },
+        "resources": {
+          "pt-BR/CashFlow.Exception.resources.dll": {
+            "locale": "pt-BR"
+          }
         }
       }
     }
   },
   "libraries": {
     "CashFlow.Communication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CashFlow.Exception/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

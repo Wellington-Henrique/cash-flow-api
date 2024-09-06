@@ -15,4 +15,3 @@ D:\Projetos\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\CashFlow.Exception.
 D:\Projetos\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\refint\CashFlow.Exception.dll
 D:\Projetos\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\CashFlow.Exception.pdb
 D:\Projetos\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\ref\CashFlow.Exception.dll
-D:\Projetos\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\pt-BR\CashFlow.Exception.resources.cs

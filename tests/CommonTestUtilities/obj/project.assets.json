@@ -18,11 +18,24 @@
       "CashFlow.Communication/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CashFlow.Exception": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CashFlow.Communication.dll": {}
         },
         "runtime": {
           "bin/placeholder/CashFlow.Communication.dll": {}
+        }
+      },
+      "CashFlow.Exception/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CashFlow.Exception.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CashFlow.Exception.dll": {}
         }
       }
     }
@@ -51,6 +64,11 @@
       "type": "project",
       "path": "../../src/CashFlow.Communication/CashFlow.Communication.csproj",
       "msbuildProject": "../../src/CashFlow.Communication/CashFlow.Communication.csproj"
+    },
+    "CashFlow.Exception/1.0.0": {
+      "type": "project",
+      "path": "../../src/CashFlow.Exception/CashFlow.Exception.csproj",
+      "msbuildProject": "../../src/CashFlow.Exception/CashFlow.Exception.csproj"
     }
   },
   "projectFileDependencyGroups": {
