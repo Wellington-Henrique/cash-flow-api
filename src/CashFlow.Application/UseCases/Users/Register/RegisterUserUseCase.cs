@@ -2,6 +2,7 @@
 using CashFlow.Communication.Requests;
 using CashFlow.Communication.Responses;
 using CashFlow.Domain.Entities;
+using CashFlow.Domain.Repositories;
 using CashFlow.Domain.Repositories.User;
 using CashFlow.Domain.Security.Criptography;
 using CashFlow.Exception;
@@ -15,25 +16,38 @@ namespace CashFlow.Application.UseCases.Users.Register
         private readonly IMapper _mapper;
         private readonly IPasswordEncripter _passwordEncripter;
         private readonly IUserReadOnlyRepository _userReadOnlyRepository;
+        private readonly IUserWriteOnlyRepository _userWriteOnlyRepository;
+        private readonly IUnitOfWork _unitOfWork;
 
         public RegisterUserUseCase(
-            IMapper mapper, 
-            IPasswordEncripter passwordEncripter, 
-            IUserReadOnlyRepository userReadOnlyRepository)
+            IMapper mapper,
+            IPasswordEncripter passwordEncripter,
+            IUserReadOnlyRepository userReadOnlyRepository,
+            IUserWriteOnlyRepository userWriteOnlyRepository,
+            IUnitOfWork unitOfWork)
         {
             _mapper = mapper;
             _passwordEncripter = passwordEncripter;
             _userReadOnlyRepository = userReadOnlyRepository;
+            _userWriteOnlyRepository = userWriteOnlyRepository;
+            _unitOfWork = unitOfWork;
         }
 
-        public Task<ResponseRegisteredUserJson> Execute(RequestRegisterUserJson request)
+        public async Task<ResponseRegisteredUserJson> Execute(RequestRegisterUserJson request)
         {
-            Validate(request);
+            await Validate(request);
 
             var user = _mapper.Map<User>(request);
             user.Password = _passwordEncripter.Encrypt(request.Password);
+            user.UserIdentifier = Guid.NewGuid();
 
-            return null;
+            await _userWriteOnlyRepository.Add(user);
+            await _unitOfWork.Commit();
+
+            return new ResponseRegisteredUserJson
+            {
+                Name = user.Name,
+            };
         }
 
         private async Task Validate(RequestRegisterUserJson request)

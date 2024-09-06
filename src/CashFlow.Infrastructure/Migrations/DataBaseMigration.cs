@@ -11,6 +11,5 @@ namespace CashFlow.Infrastructure.Migrations
             var dbContext = serviceProvider.GetRequiredService<CashFlowDbContext>();
             await dbContext.Database.MigrateAsync();
         }
-
     }
 }
