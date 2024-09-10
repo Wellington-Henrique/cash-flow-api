@@ -97,7 +97,7 @@ namespace CashFlow.Exception {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a E-mail and/or password invalid..
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Invalid e-mail and/or password..
         /// </summary>
         public static string EMAIL_OR_PASSWORD_INVALID {
             get {
