@@ -29,7 +29,7 @@ namespace CashFlow.Domain.Security
             var tokenDescription = new SecurityTokenDescriptor
             {
                 Expires = DateTime.UtcNow.AddMinutes(_expirationTimeInMinutes),
-                SigningCredentials = new SigningCredentials(SecurityKey(), SecurityAlgorithms.HmacSha256Signature)
+                SigningCredentials = new SigningCredentials(SecurityKey(), SecurityAlgorithms.HmacSha256Signature),
                 Subject = new ClaimsIdentity(claims)
             };
 

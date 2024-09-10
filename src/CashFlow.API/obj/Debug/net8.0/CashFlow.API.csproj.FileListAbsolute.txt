@@ -141,3 +141,9 @@ D:\Projetos\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.genruntimeco
 D:\Projetos\CashFlow\src\CashFlow.API\obj\Debug\net8.0\ref\CashFlow.API.dll
 D:\Projetos\CashFlow\src\CashFlow.API\obj\Debug\net8.0\CashFlow.API.MvcApplicationPartsAssemblyInfo.cs
 D:\Projetos\CashFlow\src\CashFlow.API\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\Projetos\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Projetos\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Projetos\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projetos\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Projetos\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Projetos\CashFlow\src\CashFlow.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
