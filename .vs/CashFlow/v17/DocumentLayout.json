@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Projetos\\CashFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{114854DA-1ECD-4EC6-856B-4E6418B2CE6B}|tests\\UseCases.Test\\UseCases.Test.csproj|d:\\projetos\\cashflow\\tests\\usecases.test\\users\\register\\registeruserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{114854DA-1ECD-4EC6-856B-4E6418B2CE6B}|tests\\UseCases.Test\\UseCases.Test.csproj|solutionrelative:tests\\usecases.test\\users\\register\\registeruserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{120536C2-B4DD-485E-B820-C72EDEC86F47}|tests\\CommonTestUtilities\\CommonTestUtilities.csproj|d:\\projetos\\cashflow\\tests\\commontestutilities\\token\\jwttokengeneratorbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{120536C2-B4DD-485E-B820-C72EDEC86F47}|tests\\CommonTestUtilities\\CommonTestUtilities.csproj|solutionrelative:tests\\commontestutilities\\token\\jwttokengeneratorbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{120536C2-B4DD-485E-B820-C72EDEC86F47}|tests\\CommonTestUtilities\\CommonTestUtilities.csproj|d:\\projetos\\cashflow\\tests\\commontestutilities\\repositories\\usewriteonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{120536C2-B4DD-485E-B820-C72EDEC86F47}|tests\\CommonTestUtilities\\CommonTestUtilities.csproj|solutionrelative:tests\\commontestutilities\\repositories\\usewriteonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{120536C2-B4DD-485E-B820-C72EDEC86F47}|tests\\CommonTestUtilities\\CommonTestUtilities.csproj|d:\\projetos\\cashflow\\tests\\commontestutilities\\mapper\\mapperbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{120536C2-B4DD-485E-B820-C72EDEC86F47}|tests\\CommonTestUtilities\\CommonTestUtilities.csproj|solutionrelative:tests\\commontestutilities\\mapper\\mapperbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,14 +67,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RegisterUserUseCaseTest.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
-              "RelativeDocumentMoniker": "tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
-              "RelativeToolTip": "tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAiwBwAAAAqAAAA",
+              "Title": "JwtTokenGeneratorBuilder.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\CommonTestUtilities\\Token\\JwtTokenGeneratorBuilder.cs",
+              "RelativeDocumentMoniker": "tests\\CommonTestUtilities\\Token\\JwtTokenGeneratorBuilder.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\CommonTestUtilities\\Token\\JwtTokenGeneratorBuilder.cs",
+              "RelativeToolTip": "tests\\CommonTestUtilities\\Token\\JwtTokenGeneratorBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T00:58:31.376Z",
+              "WhenOpened": "2024-09-11T01:34:02.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UseWriteOnlyRepositoryBuilder.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\CommonTestUtilities\\Repositories\\UseWriteOnlyRepositoryBuilder.cs",
+              "RelativeDocumentMoniker": "tests\\CommonTestUtilities\\Repositories\\UseWriteOnlyRepositoryBuilder.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\CommonTestUtilities\\Repositories\\UseWriteOnlyRepositoryBuilder.cs",
+              "RelativeToolTip": "tests\\CommonTestUtilities\\Repositories\\UseWriteOnlyRepositoryBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:23:50.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MapperBuilder.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\CommonTestUtilities\\Mapper\\MapperBuilder.cs",
+              "RelativeDocumentMoniker": "tests\\CommonTestUtilities\\Mapper\\MapperBuilder.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\CommonTestUtilities\\Mapper\\MapperBuilder.cs",
+              "RelativeToolTip": "tests\\CommonTestUtilities\\Mapper\\MapperBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:15:17.697Z",
               "EditorCaption": ""
             }
           ]
