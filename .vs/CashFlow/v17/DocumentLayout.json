@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\Projetos\\CashFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A874F3E-00F9-402B-8D0C-BE9B94985127}|tests\\Validators.Tests\\Validators.Tests.csproj|d:\\projetos\\cashflow\\tests\\validators.tests\\users\\passwordvalidatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A874F3E-00F9-402B-8D0C-BE9B94985127}|tests\\Validators.Tests\\Validators.Tests.csproj|solutionrelative:tests\\validators.tests\\users\\passwordvalidatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A874F3E-00F9-402B-8D0C-BE9B94985127}|tests\\Validators.Tests\\Validators.Tests.csproj|d:\\projetos\\cashflow\\tests\\validators.tests\\users\\register\\registeruservalidatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A874F3E-00F9-402B-8D0C-BE9B94985127}|tests\\Validators.Tests\\Validators.Tests.csproj|solutionrelative:tests\\validators.tests\\users\\register\\registeruservalidatortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{114854DA-1ECD-4EC6-856B-4E6418B2CE6B}|tests\\UseCases.Test\\UseCases.Test.csproj|d:\\projetos\\cashflow\\tests\\usecases.test\\users\\register\\registeruserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114854DA-1ECD-4EC6-856B-4E6418B2CE6B}|tests\\UseCases.Test\\UseCases.Test.csproj|solutionrelative:tests\\usecases.test\\users\\register\\registeruserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,27 +59,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PasswordValidatorTest.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\Validators.Tests\\Users\\PasswordValidatorTest.cs",
-              "RelativeDocumentMoniker": "tests\\Validators.Tests\\Users\\PasswordValidatorTest.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\Validators.Tests\\Users\\PasswordValidatorTest.cs",
-              "RelativeToolTip": "tests\\Validators.Tests\\Users\\PasswordValidatorTest.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAkwBgAAAAZAAAA",
+              "Title": "RegisterUserUseCaseTest.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
+              "RelativeDocumentMoniker": "tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
+              "RelativeToolTip": "tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAiwBwAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T00:46:50.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterUserValidatorTest.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\Validators.Tests\\Users\\Register\\RegisterUserValidatorTest.cs",
-              "RelativeDocumentMoniker": "tests\\Validators.Tests\\Users\\Register\\RegisterUserValidatorTest.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\Validators.Tests\\Users\\Register\\RegisterUserValidatorTest.cs",
-              "RelativeToolTip": "tests\\Validators.Tests\\Users\\Register\\RegisterUserValidatorTest.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAIwFcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T00:22:04.329Z",
+              "WhenOpened": "2024-09-11T00:58:31.376Z",
               "EditorCaption": ""
             }
           ]
