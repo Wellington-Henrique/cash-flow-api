@@ -36,6 +36,7 @@ namespace Validators.Tests.Users.Register
             var result = validator.Validate(request);
 
             // Assert
+            result.IsValid.Should().BeFalse();
             result.Errors
                 .Should()
                 .ContainSingle().And
@@ -62,6 +63,44 @@ namespace Validators.Tests.Users.Register
                 .Should()
                 .ContainSingle().And
                 .Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.EMAIL_EMPTY));
+        }
+
+        [Fact]
+        public void ErrorEmailInvalid()
+        {
+            // Arrange
+            var validator = new RegisterUserValidator();
+            var request = RequestRegisterUserJsonBuilder.Build();
+            request.Email = "wellingtonhlc.com";
+
+            // Act
+            var result = validator.Validate(request);
+
+            // Assert
+            result.IsValid.Should().BeFalse();
+            result.Errors
+                .Should()
+                .ContainSingle().And
+                .Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.EMAIL_INVALID));
+        }
+
+        [Fact]
+        public void ErrorPasswordEmpty()
+        {
+            // Arrange
+            var validator = new RegisterUserValidator();
+            var request = RequestRegisterUserJsonBuilder.Build();
+            request.Password = string.Empty;
+
+            // Act
+            var result = validator.Validate(request);
+
+            // Assert
+            result.IsValid.Should().BeFalse();
+            result.Errors
+                .Should()
+                .ContainSingle().And
+                .Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.INVALID_PASSWORD));
         }
     }
 }
