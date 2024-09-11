@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{114854DA-1ECD-4EC6-856B-4E6418B2CE6B}|tests\\UseCases.Test\\UseCases.Test.csproj|solutionrelative:tests\\usecases.test\\users\\register\\registeruserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{120536C2-B4DD-485E-B820-C72EDEC86F47}|tests\\CommonTestUtilities\\CommonTestUtilities.csproj|d:\\projetos\\cashflow\\tests\\commontestutilities\\repositories\\usewriteonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{120536C2-B4DD-485E-B820-C72EDEC86F47}|tests\\CommonTestUtilities\\CommonTestUtilities.csproj|solutionrelative:tests\\commontestutilities\\repositories\\usewriteonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62D52A42-1E6A-4939-B99D-EE61B600525A}|src\\CashFlow.Exception\\CashFlow.Exception.csproj|d:\\projetos\\cashflow\\src\\cashflow.exception\\exceptionsbase\\erroronvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D52A42-1E6A-4939-B99D-EE61B600525A}|src\\CashFlow.Exception\\CashFlow.Exception.csproj|solutionrelative:src\\cashflow.exception\\exceptionsbase\\erroronvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{120536C2-B4DD-485E-B820-C72EDEC86F47}|tests\\CommonTestUtilities\\CommonTestUtilities.csproj|d:\\projetos\\cashflow\\tests\\commontestutilities\\mapper\\mapperbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{120536C2-B4DD-485E-B820-C72EDEC86F47}|tests\\CommonTestUtilities\\CommonTestUtilities.csproj|solutionrelative:tests\\commontestutilities\\mapper\\mapperbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C2C1A1-FE83-44B3-835C-758E99785225}|src\\CashFlow.Application\\CashFlow.Application.csproj|d:\\projetos\\cashflow\\src\\cashflow.application\\usecases\\users\\register\\registeruserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C2C1A1-FE83-44B3-835C-758E99785225}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\users\\register\\registeruserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,41 +66,41 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorOnValidationException.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.Exception\\ExceptionsBase\\ErrorOnValidationException.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Exception\\ExceptionsBase\\ErrorOnValidationException.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.Exception\\ExceptionsBase\\ErrorOnValidationException.cs",
+              "RelativeToolTip": "src\\CashFlow.Exception\\ExceptionsBase\\ErrorOnValidationException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T23:48:30.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "RegisterUserUseCaseTest.cs",
               "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
               "RelativeDocumentMoniker": "tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
               "ToolTip": "D:\\Projetos\\CashFlow\\tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
               "RelativeToolTip": "tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAkwBsAAAAIAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAkwCUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T01:42:00.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UseWriteOnlyRepositoryBuilder.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\CommonTestUtilities\\Repositories\\UseWriteOnlyRepositoryBuilder.cs",
-              "RelativeDocumentMoniker": "tests\\CommonTestUtilities\\Repositories\\UseWriteOnlyRepositoryBuilder.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\CommonTestUtilities\\Repositories\\UseWriteOnlyRepositoryBuilder.cs",
-              "RelativeToolTip": "tests\\CommonTestUtilities\\Repositories\\UseWriteOnlyRepositoryBuilder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T01:23:50.048Z",
+              "WhenOpened": "2024-09-11T23:40:56.463Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MapperBuilder.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\CommonTestUtilities\\Mapper\\MapperBuilder.cs",
-              "RelativeDocumentMoniker": "tests\\CommonTestUtilities\\Mapper\\MapperBuilder.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\CommonTestUtilities\\Mapper\\MapperBuilder.cs",
-              "RelativeToolTip": "tests\\CommonTestUtilities\\Mapper\\MapperBuilder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Title": "RegisterUserUseCase.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Register\\RegisterUserUseCase.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Users\\Register\\RegisterUserUseCase.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Register\\RegisterUserUseCase.cs",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Users\\Register\\RegisterUserUseCase.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAD4vykAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T01:15:17.697Z",
+              "WhenOpened": "2024-09-11T23:39:35.279Z",
               "EditorCaption": ""
             }
           ]
