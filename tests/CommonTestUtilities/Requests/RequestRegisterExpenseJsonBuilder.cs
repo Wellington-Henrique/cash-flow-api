@@ -2,7 +2,7 @@
 using CashFlow.Communication.Enums;
 using CashFlow.Communication.Requests;
 
-namespace CommonTestUtilities.Requests
+namespace Validators.Tests.Requests
 {
     public class RequestRegisterExpenseJsonBuilder
     {
