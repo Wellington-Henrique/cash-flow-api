@@ -1,6 +1,5 @@
 ﻿
 using CashFlow.Application.UseCases.Users.Register;
-using CashFlow.Communication.Requests;
 using CommonTestUtilities.Cryptography;
 using CommonTestUtilities.Mapper;
 using CommonTestUtilities.Repositories;
@@ -35,11 +34,12 @@ namespace UseCases.Test.Users.Register
             var writeRepository = UseWriteOnlyRepositoryBuilder.Build();
             var tokenGenerator = JwtTokenGeneratorBuilder.Build();
             var passwordEncripter = PasswordEncryptBuilder.Build();
+            var readOnlyRepository = new UserReadOnlyRepositoryBuilder().Build();
 
             return new RegisterUserUseCase(
                 mapper,
                 passwordEncripter,
-                null,
+                readOnlyRepository,
                 writeRepository, 
                 unitOfWork,
                 tokenGenerator
