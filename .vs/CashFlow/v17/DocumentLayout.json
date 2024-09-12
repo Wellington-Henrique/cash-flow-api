@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{114854DA-1ECD-4EC6-856B-4E6418B2CE6B}|tests\\UseCases.Test\\UseCases.Test.csproj|solutionrelative:tests\\usecases.test\\login\\dologin\\dologinusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{120536C2-B4DD-485E-B820-C72EDEC86F47}|tests\\CommonTestUtilities\\CommonTestUtilities.csproj|d:\\projetos\\cashflow\\tests\\commontestutilities\\repositories\\userreadonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{120536C2-B4DD-485E-B820-C72EDEC86F47}|tests\\CommonTestUtilities\\CommonTestUtilities.csproj|solutionrelative:tests\\commontestutilities\\repositories\\userreadonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{114854DA-1ECD-4EC6-856B-4E6418B2CE6B}|tests\\UseCases.Test\\UseCases.Test.csproj|d:\\projetos\\cashflow\\tests\\usecases.test\\users\\register\\registeruserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114854DA-1ECD-4EC6-856B-4E6418B2CE6B}|tests\\UseCases.Test\\UseCases.Test.csproj|solutionrelative:tests\\usecases.test\\users\\register\\registeruserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,14 +63,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserReadOnlyRepositoryBuilder.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\CommonTestUtilities\\Repositories\\UserReadOnlyRepositoryBuilder.cs",
-              "RelativeDocumentMoniker": "tests\\CommonTestUtilities\\Repositories\\UserReadOnlyRepositoryBuilder.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\CommonTestUtilities\\Repositories\\UserReadOnlyRepositoryBuilder.cs",
-              "RelativeToolTip": "tests\\CommonTestUtilities\\Repositories\\UserReadOnlyRepositoryBuilder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAsAAAA",
+              "Title": "RegisterUserUseCaseTest.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
+              "RelativeDocumentMoniker": "tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
+              "RelativeToolTip": "tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAASwEQAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T00:55:25.063Z",
+              "WhenOpened": "2024-09-12T00:50:21.746Z",
               "EditorCaption": ""
             },
             {
@@ -81,7 +81,7 @@
               "RelativeDocumentMoniker": "tests\\UseCases.Test\\Login\\DoLogin\\DoLoginUseCaseTest.cs",
               "ToolTip": "D:\\Projetos\\CashFlow\\tests\\UseCases.Test\\Login\\DoLogin\\DoLoginUseCaseTest.cs",
               "RelativeToolTip": "tests\\UseCases.Test\\Login\\DoLogin\\DoLoginUseCaseTest.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAdAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAjwDgAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T00:17:41.33Z",
               "EditorCaption": ""
