@@ -146,3 +146,8 @@ D:\Projetos\CashFlow\tests\Validators.Tests\obj\Debug\net8.0\refint\Validators.T
 D:\Projetos\CashFlow\tests\Validators.Tests\obj\Debug\net8.0\Validators.Tests.pdb
 D:\Projetos\CashFlow\tests\Validators.Tests\obj\Debug\net8.0\Validators.Tests.genruntimeconfig.cache
 D:\Projetos\CashFlow\tests\Validators.Tests\obj\Debug\net8.0\ref\Validators.Tests.dll
+D:\Projetos\CashFlow\tests\Validators.Tests\bin\Debug\net8.0\Castle.Core.dll
+D:\Projetos\CashFlow\tests\Validators.Tests\bin\Debug\net8.0\Moq.dll
+D:\Projetos\CashFlow\tests\Validators.Tests\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+D:\Projetos\CashFlow\tests\Validators.Tests\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+D:\Projetos\CashFlow\tests\Validators.Tests\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll

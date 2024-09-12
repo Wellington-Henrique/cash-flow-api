@@ -17,8 +17,8 @@ namespace UseCases.Test.Users.Register
         public async Task Success()
         {
             // Arrange
-            var useCase = CreateUseCase();
             var request = RequestRegisterUserJsonBuilder.Build();
+            var useCase = CreateUseCase();
 
             // Act
             var result = await useCase.Execute(request);
@@ -33,8 +33,8 @@ namespace UseCases.Test.Users.Register
         public async Task ErrorNameEmpty()
         {
             // Arrange
-            var useCase = CreateUseCase();
             var request = RequestRegisterUserJsonBuilder.Build();
+            var useCase = CreateUseCase();
             request.Name = string.Empty;
 
             // Act
@@ -45,19 +45,39 @@ namespace UseCases.Test.Users.Register
             result.Where(ex => ex.GetErrors.Count == 1 && ex.GetErrors.Contains(ResourceErrorMessages.NAME_EMPTY));
         }
 
-        private RegisterUserUseCase CreateUseCase()
+        [Fact]
+        public async Task ErrorEmailAlreadyExist()
+        {
+            // Arrange
+            var request = RequestRegisterUserJsonBuilder.Build();
+            var useCase = CreateUseCase(request.Email);
+
+            // Act
+            var act = async () => await useCase.Execute(request);
+
+            // Assert
+            var result = await act.Should().ThrowAsync<ErrorOnValidationException>();
+            result.Where(ex => ex.GetErrors.Count == 1 && ex.GetErrors.Contains(ResourceErrorMessages.EMAIL_ALREADY_REGISTERED));
+        }
+
+        private RegisterUserUseCase CreateUseCase(string? email = null)
         {
             var mapper = MapperBuilder.Build();
             var unitOfWork = UnitOfWorkBuilder.Build();
             var writeRepository = UseWriteOnlyRepositoryBuilder.Build();
             var tokenGenerator = JwtTokenGeneratorBuilder.Build();
             var passwordEncripter = PasswordEncryptBuilder.Build();
-            var readOnlyRepository = new UserReadOnlyRepositoryBuilder().Build();
+            var readOnlyRepository = new UserReadOnlyRepositoryBuilder();
+
+            if (string.IsNullOrWhiteSpace(email) == false)
+            {
+                readOnlyRepository.ExistActiveUserWithEmail(email);
+            }
 
             return new RegisterUserUseCase(
                 mapper,
                 passwordEncripter,
-                readOnlyRepository,
+                readOnlyRepository.Build(),
                 writeRepository, 
                 unitOfWork,
                 tokenGenerator
