@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Projetos\\CashFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{114854DA-1ECD-4EC6-856B-4E6418B2CE6B}|tests\\UseCases.Test\\UseCases.Test.csproj|d:\\projetos\\cashflow\\tests\\usecases.test\\users\\register\\registeruserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{114854DA-1ECD-4EC6-856B-4E6418B2CE6B}|tests\\UseCases.Test\\UseCases.Test.csproj|solutionrelative:tests\\usecases.test\\users\\register\\registeruserusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{114854DA-1ECD-4EC6-856B-4E6418B2CE6B}|tests\\UseCases.Test\\UseCases.Test.csproj|d:\\projetos\\cashflow\\tests\\usecases.test\\login\\dologin\\dologinusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114854DA-1ECD-4EC6-856B-4E6418B2CE6B}|tests\\UseCases.Test\\UseCases.Test.csproj|solutionrelative:tests\\usecases.test\\login\\dologin\\dologinusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{120536C2-B4DD-485E-B820-C72EDEC86F47}|tests\\CommonTestUtilities\\CommonTestUtilities.csproj|d:\\projetos\\cashflow\\tests\\commontestutilities\\repositories\\userreadonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{120536C2-B4DD-485E-B820-C72EDEC86F47}|tests\\CommonTestUtilities\\CommonTestUtilities.csproj|solutionrelative:tests\\commontestutilities\\repositories\\userreadonlyrepositorybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,15 +62,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegisterUserUseCaseTest.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
-              "RelativeDocumentMoniker": "tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
-              "RelativeToolTip": "tests\\UseCases.Test\\Users\\Register\\RegisterUserUseCaseTest.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAcwDAAAAAfAAAA",
+              "DocumentIndex": 1,
+              "Title": "UserReadOnlyRepositoryBuilder.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\CommonTestUtilities\\Repositories\\UserReadOnlyRepositoryBuilder.cs",
+              "RelativeDocumentMoniker": "tests\\CommonTestUtilities\\Repositories\\UserReadOnlyRepositoryBuilder.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\CommonTestUtilities\\Repositories\\UserReadOnlyRepositoryBuilder.cs",
+              "RelativeToolTip": "tests\\CommonTestUtilities\\Repositories\\UserReadOnlyRepositoryBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T23:40:56.463Z",
+              "WhenOpened": "2024-09-12T00:55:25.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoLoginUseCaseTest.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\UseCases.Test\\Login\\DoLogin\\DoLoginUseCaseTest.cs",
+              "RelativeDocumentMoniker": "tests\\UseCases.Test\\Login\\DoLogin\\DoLoginUseCaseTest.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\UseCases.Test\\Login\\DoLogin\\DoLoginUseCaseTest.cs",
+              "RelativeToolTip": "tests\\UseCases.Test\\Login\\DoLogin\\DoLoginUseCaseTest.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T00:17:41.33Z",
               "EditorCaption": ""
             }
           ]

@@ -3,7 +3,7 @@ using Moq;
 
 namespace CommonTestUtilities.Cryptography
 {
-    public class PasswordEncryptBuilder
+    public class PasswordEncripterBuilder
     {
         public static IPasswordEncripter Build()
         {
