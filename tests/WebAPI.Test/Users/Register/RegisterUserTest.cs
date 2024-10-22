@@ -1,4 +1,6 @@
-﻿using FluentAssertions;
+﻿using CashFlow.Exception;
+using FluentAssertions;
+using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.Resources;
 using System.Net;
 using System.Net.Http.Json;
 using System.Text.Json;
@@ -41,6 +43,35 @@ namespace WebAPI.Test.Users.Register
                 .GetString()
                 .Should()
                 .NotBeNullOrWhiteSpace();
+        }
+
+        [Fact]
+        public async Task ErrorEmptyName()
+        {
+            var request = RequestRegisterUserJsonBuilder.Build();
+            request.Name = string.Empty;
+
+            var result = await _httpClient.PostAsJsonAsync(METHOD, request);
+
+            result.StatusCode.Should().Be(HttpStatusCode.BadRequest);
+
+            var body = await result.Content.ReadAsStreamAsync();
+
+            var response = await JsonDocument.ParseAsync(body);
+
+            var errors = response.RootElement
+                .GetProperty("errorMessages")
+                .EnumerateArray();
+
+            errors
+                .Should()
+                .HaveCount(1)
+                .And
+                .Contain(error => 
+                    error
+                    .GetString()!
+                    .Equals(ResourceErrorMessages.NAME_EMPTY)
+                );
         }
     }
 }
