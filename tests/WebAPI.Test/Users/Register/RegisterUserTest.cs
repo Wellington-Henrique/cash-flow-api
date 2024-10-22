@@ -6,6 +6,7 @@ using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text.Json;
 using Validators.Tests.Requests;
+using WebAPI.Test.InlineData;
 
 namespace WebAPI.Test.Users.Register
 {
@@ -47,8 +48,7 @@ namespace WebAPI.Test.Users.Register
         }
 
         [Theory]
-        [InlineData("en")]
-        [InlineData("pt-BR")]
+        [ClassData(typeof(CultureInlineDataTest))]
         public async Task ErrorEmptyName(string cultureInfo)
         {
             var request = RequestRegisterUserJsonBuilder.Build();

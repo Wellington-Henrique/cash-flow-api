@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|d:\\projetos\\cashflow\\tests\\webapi.test\\users\\register\\registerusertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|solutionrelative:tests\\webapi.test\\users\\register\\registerusertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B80038F-459C-4A32-987D-BBC9FB2B6391}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|d:\\projetos\\cashflow\\src\\cashflow.infrastructure\\depenenceinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B80038F-459C-4A32-987D-BBC9FB2B6391}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\depenenceinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,26 +58,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DepenenceInjectionExtension.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infrastructure\\DepenenceInjectionExtension.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\DepenenceInjectionExtension.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infrastructure\\DepenenceInjectionExtension.cs",
-              "RelativeToolTip": "src\\CashFlow.Infrastructure\\DepenenceInjectionExtension.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAADgvxkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T00:47:37.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "RegisterUserTest.cs",
               "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\Users\\Register\\RegisterUserTest.cs",
               "RelativeDocumentMoniker": "tests\\WebAPI.Test\\Users\\Register\\RegisterUserTest.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\Users\\Register\\RegisterUserTest.cs",
-              "RelativeToolTip": "tests\\WebAPI.Test\\Users\\Register\\RegisterUserTest.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAQwD4AAAAAAAAA",
+              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\Users\\Register\\RegisterUserTest.cs*",
+              "RelativeToolTip": "tests\\WebAPI.Test\\Users\\Register\\RegisterUserTest.cs*",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T00:39:39.907Z",
               "EditorCaption": ""
