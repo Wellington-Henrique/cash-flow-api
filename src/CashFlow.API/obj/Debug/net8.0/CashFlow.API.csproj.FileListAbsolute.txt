@@ -150,3 +150,4 @@ D:\Projetos\CashFlow\src\CashFlow.API\bin\Debug\net8.0\System.IdentityModel.Toke
 D:\Projetos\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Projetos\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 D:\Projetos\CashFlow\src\CashFlow.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projetos\CashFlow\src\CashFlow.API\bin\Debug\net8.0\appsettings.Test.json

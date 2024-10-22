@@ -7,6 +7,7 @@ using CashFlow.Domain.Security.Tokens;
 using CashFlow.Infrastructure.DataAccess;
 using CashFlow.Infrastructure.DataAccess.Repositories.Expenses;
 using CashFlow.Infrastructure.DataAccess.Repositories.User;
+using CashFlow.Infrastructure.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -17,11 +18,13 @@ namespace CashFlow.Infrastructure
     {
         public static void AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
-            AddDbContext(services, configuration);
+            services.AddScoped<IPasswordEncripter, Security.Cryptography.BCrypt>();
+
             AddToken(services, configuration);
             AddRepositories(services);
 
-            services.AddScoped<IPasswordEncripter, Security.Cryptography.BCrypt>();
+            if (configuration.IsTestEnvironment() == false)
+                AddDbContext(services, configuration);
         }
 
         private static void AddToken(IServiceCollection services, IConfiguration configuration)
