@@ -1,7 +1,8 @@
 ﻿using CashFlow.Exception;
 using FluentAssertions;
-using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.Resources;
+using System.Globalization;
 using System.Net;
+using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text.Json;
 using Validators.Tests.Requests;
@@ -45,11 +46,16 @@ namespace WebAPI.Test.Users.Register
                 .NotBeNullOrWhiteSpace();
         }
 
-        [Fact]
-        public async Task ErrorEmptyName()
+        [Theory]
+        [InlineData("en")]
+        [InlineData("pt-BR")]
+        public async Task ErrorEmptyName(string cultureInfo)
         {
             var request = RequestRegisterUserJsonBuilder.Build();
             request.Name = string.Empty;
+
+            _httpClient.DefaultRequestHeaders.AcceptLanguage
+                .Add(new StringWithQualityHeaderValue(cultureInfo));
 
             var result = await _httpClient.PostAsJsonAsync(METHOD, request);
 
@@ -63,14 +69,17 @@ namespace WebAPI.Test.Users.Register
                 .GetProperty("errorMessages")
                 .EnumerateArray();
 
+            var expectedMessage = ResourceErrorMessages.ResourceManager
+                .GetString("NAME_EMPTY", new CultureInfo(cultureInfo));
+
             errors
                 .Should()
                 .HaveCount(1)
                 .And
-                .Contain(error => 
+                .Contain(error =>
                     error
                     .GetString()!
-                    .Equals(ResourceErrorMessages.NAME_EMPTY)
+                    .Equals(expectedMessage)
                 );
         }
     }
