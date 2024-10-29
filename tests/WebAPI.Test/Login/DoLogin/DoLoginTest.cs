@@ -4,26 +4,21 @@ using CommonTestUtilities.Requests;
 using FluentAssertions;
 using System.Globalization;
 using System.Net;
-using System.Net.Http.Headers;
-using System.Net.Http.Json;
 using System.Text.Json;
 using WebAPI.Test.InlineData;
 
 namespace WebAPI.Test.Login.DoLogin
 {
-    public class DoLoginTest : IClassFixture<CustomWebApplicationFactory>
+    public class DoLoginTest : CashFlowClassFixture
     {
         private const string METHOD = "api/Login";
-
-        private readonly HttpClient _httpClient;
 
         private readonly string _name;
         private readonly string _email;
         private readonly string _password;
 
-        public DoLoginTest(CustomWebApplicationFactory webApplicationFactory)
+        public DoLoginTest(CustomWebApplicationFactory webApplicationFactory) : base(webApplicationFactory)
         {
-            _httpClient = webApplicationFactory.CreateClient();
             _name = webApplicationFactory.GetName();
             _email = webApplicationFactory.GetEmail();
             _password = webApplicationFactory.GetPassword();
@@ -37,21 +32,21 @@ namespace WebAPI.Test.Login.DoLogin
                 Password = _password
             };
 
-            var response = await _httpClient.PostAsJsonAsync(METHOD, request);
+            var result = await DoPost(requestUri: METHOD, request: request);
 
-            response.StatusCode.Should().Be(HttpStatusCode.OK);
+            result.StatusCode.Should().Be(HttpStatusCode.OK);
 
-            var responseBody = await response.Content.ReadAsStreamAsync();
+            var responseBody = await result.Content.ReadAsStreamAsync();
 
-            var responseData = await JsonDocument.ParseAsync(responseBody);
+            var response = await JsonDocument.ParseAsync(responseBody);
 
-            responseData.RootElement
+            response.RootElement
                 .GetProperty("name")
                 .GetString()
                 .Should()
                 .Be(_name);
 
-            responseData.RootElement
+            response.RootElement
                 .GetProperty("token")
                 .GetString()
                 .Should()
@@ -60,24 +55,23 @@ namespace WebAPI.Test.Login.DoLogin
 
         [Theory]
         [ClassData(typeof(CultureInlineDataTest))]
-        public async Task ErrorInvalidLogin(string cultureInfo)
+        public async Task ErrorInvalidLogin(string culture)
         {
             var request = RequestLoginJsonBuilder.Build();
 
-            _httpClient.DefaultRequestHeaders.AcceptLanguage.Add(new StringWithQualityHeaderValue(cultureInfo));
-            var response = await _httpClient.PostAsJsonAsync(METHOD, request);
+            var result = await DoPost(requestUri: METHOD, request: request, culture: culture);
 
-            response.StatusCode.Should().Be(HttpStatusCode.Unauthorized);
+            result.StatusCode.Should().Be(HttpStatusCode.Unauthorized);
 
-            var responseBody = await response.Content.ReadAsStreamAsync();
+            var responseBody = await result.Content.ReadAsStreamAsync();
 
-            var responseData = await JsonDocument.ParseAsync(responseBody);
+            var response = await JsonDocument.ParseAsync(responseBody);
 
-            var errors = responseData.RootElement
+            var errors = response.RootElement
                 .GetProperty("errorMessages")
                 .EnumerateArray();
             
-            var expectedMessage = ResourceErrorMessages.ResourceManager.GetString("EMAIL_OR_PASSWORD_INVALID", new CultureInfo(cultureInfo));
+            var expectedMessage = ResourceErrorMessages.ResourceManager.GetString("EMAIL_OR_PASSWORD_INVALID", new CultureInfo(culture));
             
             errors
                 .Should()
