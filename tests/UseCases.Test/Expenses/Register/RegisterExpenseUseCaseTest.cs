@@ -12,7 +12,6 @@ namespace UseCases.Test.Expenses.Register
 {
     public class RegisterExpenseUseCaseTest
     {
-
         [Fact]
         public async Task Success()
         {

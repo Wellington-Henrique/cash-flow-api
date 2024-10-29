@@ -1,5 +1,6 @@
 ﻿using CashFlow.Domain.Entities;
 using CashFlow.Domain.Security.Cryptography;
+using CashFlow.Domain.Security.Tokens;
 using CashFlow.Infrastructure.DataAccess;
 using CommonTestUtilities.Entities;
 using Microsoft.AspNetCore.Hosting;
@@ -13,6 +14,7 @@ namespace WebAPI.Test
     {
         private User _user;
         private string _password;
+        private string _token;
 
         protected override void ConfigureWebHost(IWebHostBuilder builder)
         {
@@ -41,7 +43,12 @@ namespace WebAPI.Test
                                                 .ServiceProvider
                                                 .GetRequiredService<IPasswordEncripter>();
 
+
                     StartDataBase(dbContext, passwordEncripter);
+
+                    var tokenGenerate = scope.ServiceProvider.GetRequiredService<IAccessTokenGenerator>();
+                    
+                    _token = tokenGenerate.Generate(_user);
                 });
         }
 
@@ -59,5 +66,6 @@ namespace WebAPI.Test
         public string GetName() => _user.Name;
         public string GetEmail() => _user.Email;
         public string GetPassword() => _password;
+        public string GetToken() => _token;
     }
 }
