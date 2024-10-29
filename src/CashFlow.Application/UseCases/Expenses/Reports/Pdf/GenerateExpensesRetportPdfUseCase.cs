@@ -4,6 +4,7 @@ using CashFlow.Application.UseCases.Expenses.Reports.Pdf.Fonts;
 using CashFlow.Domain.Extensions;
 using CashFlow.Domain.Reports;
 using CashFlow.Domain.Repositories.Expenses;
+using CashFlow.Domain.Services.LoggedUser;
 using MigraDoc.DocumentObjectModel;
 using MigraDoc.DocumentObjectModel.Tables;
 using MigraDoc.Rendering;
@@ -17,24 +18,31 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Pdf
         private readonly IExpensesReadOnlyRepository _expensesReadOnlyRepository;
         private const string CURRENCY_SYMBOL = "€";
         private const int HEIGHT_ROW_EXPENSE_TABLE = 25;
+        private readonly ILoggedUser _loggedUser;
 
-        public GenerateExpensesRetportPdfUseCase(IExpensesReadOnlyRepository expensesReadOnlyRepository)
+        public GenerateExpensesRetportPdfUseCase(
+            IExpensesReadOnlyRepository expensesReadOnlyRepository,
+            ILoggedUser loggedUser
+            )
         {
             _expensesReadOnlyRepository = expensesReadOnlyRepository;
+            _loggedUser = loggedUser;
 
             GlobalFontSettings.FontResolver = new ExpensesReportFontResolver();
         }
 
         public async Task<byte[]> Execute(DateOnly month)
         {
-            var expenses = await _expensesReadOnlyRepository.FilterByMonth(month);
+            var loggedUser = await _loggedUser.Get();
+
+            var expenses = await _expensesReadOnlyRepository.FilterByMonth(loggedUser, month);
 
             if (expenses.Count == 0) return [];
 
-            var document = CreateDocument(month);
+            var document = CreateDocument(loggedUser, month);
             var page = CreatePage(document);
 
-            CreateHeaderWithProfilePhotoAndName(page);
+            CreateHeaderWithProfilePhotoAndName(loggedUser, page);
 
             var totalExpenses = expenses.Sum(expense => expense.Amount);
 
@@ -91,12 +99,12 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Pdf
             return RenderDocument(document);
         }
 
-        private Document CreateDocument(DateOnly month)
+        private Document CreateDocument(Domain.Entities.User user, DateOnly month)
         {
             var document = new Document();
 
             document.Info.Title = $"{ResourceReportGenerationMessages.EXPENSES_FOR} {month:Y}";
-            document.Info.Author = "Wellington Henrique";
+            document.Info.Author = user.Name;
 
             var style = document.Styles["Normal"];
 
@@ -118,7 +126,7 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Pdf
             return section;
         }
 
-        private void CreateHeaderWithProfilePhotoAndName(Section page)
+        private void CreateHeaderWithProfilePhotoAndName(Domain.Entities.User user, Section page)
         {
             var table = page.AddTable();
             table.AddColumn();
@@ -133,7 +141,7 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Pdf
             var pathFile = Path.Combine(directoryName, "Logo", "logo.png");
 
             row.Cells[0].AddImage(pathFile);
-            row.Cells[1].AddParagraph("Olá, Wellington!");
+            row.Cells[1].AddParagraph($"Olá, {user.Name}!");
             row.Cells[1].Format.Font = new Font { Name = FontHelper.RALEWAY_BLACK, Size = 16 };
             row.Cells[1].VerticalAlignment = MigraDoc.DocumentObjectModel.Tables.VerticalAlignment.Center;
         }
@@ -151,7 +159,7 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Pdf
             paragraph.AddLineBreak();
 
 
-            paragraph.AddFormattedText($"{totalExpenses} {CURRENCY_SYMBOL}", new Font { Name = FontHelper.WORKSANS_BLACK, Size = 50 });
+            paragraph.AddFormattedText($"{totalExpenses:f2} {CURRENCY_SYMBOL}", new Font { Name = FontHelper.WORKSANS_BLACK, Size = 50 });
 
         }
 
@@ -213,7 +221,7 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Pdf
         private void AddAmountForExpense(Cell cell, decimal amount)
         {
 
-            cell.AddParagraph($"-{amount} {CURRENCY_SYMBOL}");
+            cell.AddParagraph($"-{amount:f2} {CURRENCY_SYMBOL}");
             cell.Shading.Color = ColorsHelper.WHITE;
             cell.VerticalAlignment = VerticalAlignment.Center;
 

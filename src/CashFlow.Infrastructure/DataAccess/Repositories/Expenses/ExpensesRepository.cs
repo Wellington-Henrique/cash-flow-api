@@ -53,7 +53,7 @@ internal class ExpensesRepository :
         _dbContext.Expenses.Update(entity);
     }
 
-    public async Task<List<Expense>> FilterByMonth(DateOnly date)
+    public async Task<List<Expense>> FilterByMonth(Domain.Entities.User user, DateOnly date)
     {
         var startDate = new DateTime(year: date.Year, month: date.Month, day: 1).Date;
         var day = DateTime.DaysInMonth(startDate.Year, startDate.Month);
@@ -62,7 +62,7 @@ internal class ExpensesRepository :
 
         return await _dbContext.Expenses
                                 .AsNoTracking()
-                                .Where(expense => expense.Date >= startDate && expense.Date <= endDate)
+                                .Where(expense => user.Id == expense.UserId && expense.Date >= startDate && expense.Date <= endDate)
                                 .OrderByDescending(expense => expense.Date)
                                 .ThenByDescending(expense => expense.Title)
                                 .ToListAsync();

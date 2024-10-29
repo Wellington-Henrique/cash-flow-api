@@ -2,6 +2,7 @@
 using CashFlow.Domain.Extensions;
 using CashFlow.Domain.Reports;
 using CashFlow.Domain.Repositories.Expenses;
+using CashFlow.Domain.Services.LoggedUser;
 using ClosedXML.Excel;
 
 namespace CashFlow.Application.UseCases.Expenses.Reports.Excel
@@ -10,15 +11,22 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Excel
     {
         private readonly IExpensesReadOnlyRepository _expensesReadOnlyRepository;
         private const string CURRENCY_SYMBOL = "€";
+        private readonly ILoggedUser _loggedUser;
 
-        public GenerateExpenseReportExcelUseCase(IExpensesReadOnlyRepository expensesReadOnlyRepository)
+        public GenerateExpenseReportExcelUseCase(
+            IExpensesReadOnlyRepository expensesReadOnlyRepository,
+            ILoggedUser loggedUser
+            )
         {
             _expensesReadOnlyRepository = expensesReadOnlyRepository;
+            _loggedUser = loggedUser;
         }
 
         public async Task<byte[]> Execute(DateOnly month)
         {
-            var expenses = await _expensesReadOnlyRepository.FilterByMonth(month);
+            var loggedUser = await _loggedUser.Get();
+
+            var expenses = await _expensesReadOnlyRepository.FilterByMonth(loggedUser, month);
 
             if (expenses.Count == 0) return [];
 
@@ -26,7 +34,7 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Excel
             // liberando recursos do sistema operacional
             using var workbook = new XLWorkbook();
 
-            workbook.Author = "Wellington Henrique";
+            workbook.Author = loggedUser.Name;
             workbook.Style.Font.FontSize = 12;
             workbook.Style.Font.FontName = "Times New Roman";
 
