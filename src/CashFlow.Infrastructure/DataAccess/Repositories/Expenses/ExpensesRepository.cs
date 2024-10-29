@@ -48,10 +48,10 @@ internal class ExpensesRepository :
                                 .FirstOrDefaultAsync(expense => expense.Id == id);
     }    
     
-    async Task<Expense?> IExpensesUpdateOnlyRepository.GetById(long id)
+    async Task<Expense?> IExpensesUpdateOnlyRepository.GetById(Domain.Entities.User user, long id)
     {
         return await _dbContext.Expenses
-                                .FirstOrDefaultAsync(expense => expense.Id == id);
+                                .FirstOrDefaultAsync(expense => expense.Id == id && expense.UserId == user.Id);
     }
 
     public void Update(Expense entity)
