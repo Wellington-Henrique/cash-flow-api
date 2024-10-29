@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CashFlow.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5c29317d5f1ccd4e9ef3f87bc86bde2cd0eded0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a8d5a0153be9ac3b7515ce3028799410067ab49")]
 [assembly: System.Reflection.AssemblyProductAttribute("CashFlow.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CashFlow.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
