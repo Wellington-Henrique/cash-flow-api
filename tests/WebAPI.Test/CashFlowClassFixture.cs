@@ -29,6 +29,17 @@ namespace WebAPI.Test
             return await _httpClient.PostAsJsonAsync(requestUri, request);
         }
 
+        protected async Task<HttpResponseMessage> DoGet(
+            string requestUri,
+            string token,
+            string culture = "pt-BR")
+        {
+            AuthorizeRequest(token);
+            ChangeRequestCulture(culture);
+
+            return await _httpClient.GetAsync(requestUri);
+        }
+
         private void AuthorizeRequest(string token)
         {
             if(string.IsNullOrWhiteSpace(token) == false)
