@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\Projetos\\CashFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|d:\\projetos\\cashflow\\tests\\webapi.test\\expenses\\getall\\getallexpensetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|solutionrelative:tests\\webapi.test\\expenses\\getall\\getallexpensetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|d:\\projetos\\cashflow\\tests\\webapi.test\\customwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|solutionrelative:tests\\webapi.test\\customwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|d:\\projetos\\cashflow\\tests\\webapi.test\\expenses\\register\\registerexpensetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|solutionrelative:tests\\webapi.test\\expenses\\register\\registerexpensetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|d:\\projetos\\cashflow\\tests\\webapi.test\\expenses\\getbyid\\getexpensebyidtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|solutionrelative:tests\\webapi.test\\expenses\\getbyid\\getexpensebyidtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomWebApplicationFactory.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\CustomWebApplicationFactory.cs",
-              "RelativeDocumentMoniker": "tests\\WebAPI.Test\\CustomWebApplicationFactory.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\CustomWebApplicationFactory.cs",
-              "RelativeToolTip": "tests\\WebAPI.Test\\CustomWebApplicationFactory.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAuwDwAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T23:54:27.15Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -79,28 +58,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegisterExpenseTest.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\Expenses\\Register\\RegisterExpenseTest.cs",
-              "RelativeDocumentMoniker": "tests\\WebAPI.Test\\Expenses\\Register\\RegisterExpenseTest.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\Expenses\\Register\\RegisterExpenseTest.cs",
-              "RelativeToolTip": "tests\\WebAPI.Test\\Expenses\\Register\\RegisterExpenseTest.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowCoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T23:47:42.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GetAllExpenseTest.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\Expenses\\GetAll\\GetAllExpenseTest.cs",
-              "RelativeDocumentMoniker": "tests\\WebAPI.Test\\Expenses\\GetAll\\GetAllExpenseTest.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\Expenses\\GetAll\\GetAllExpenseTest.cs",
-              "RelativeToolTip": "tests\\WebAPI.Test\\Expenses\\GetAll\\GetAllExpenseTest.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBMAAAAJAAAA",
+              "Title": "GetExpenseByIdTest.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\Expenses\\GetById\\GetExpenseByIdTest.cs",
+              "RelativeDocumentMoniker": "tests\\WebAPI.Test\\Expenses\\GetById\\GetExpenseByIdTest.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\Expenses\\GetById\\GetExpenseByIdTest.cs*",
+              "RelativeToolTip": "tests\\WebAPI.Test\\Expenses\\GetById\\GetExpenseByIdTest.cs*",
+              "ViewState": "AQIAADsAAAAAAAAAAAAYwEoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T23:49:44.375Z",
+              "WhenOpened": "2024-10-30T00:16:09.343Z",
               "EditorCaption": ""
             }
           ]
