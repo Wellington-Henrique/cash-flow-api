@@ -17,8 +17,8 @@ namespace WebAPI.Test.Expenses.GetById
 
         public GetExpenseByIdTest(CustomWebApplicationFactory webApplicationFactory) : base(webApplicationFactory)
         {
-            _token = webApplicationFactory.GetToken();
-            _expenseId = webApplicationFactory.GetExpenseId();
+            _token = webApplicationFactory.User_Team_Member.GetToken();
+            _expenseId = webApplicationFactory.Expense.GetId();
         }
 
         [Fact]
