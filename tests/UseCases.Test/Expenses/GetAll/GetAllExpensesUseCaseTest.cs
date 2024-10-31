@@ -16,7 +16,7 @@ namespace UseCases.Test.Expenses.GetAll
             var loggedUser = UserBuilder.Build();
             var expenses = ExpenseBuilder.Collection(loggedUser);
 
-            var request = RequestRegisterExpenseJsonBuilder.Build();
+            var request = RequestExpenseJsonBuilder.Build();
             var useCase = CreateUseCase(loggedUser, expenses);
 
             var result = await useCase.Execute();

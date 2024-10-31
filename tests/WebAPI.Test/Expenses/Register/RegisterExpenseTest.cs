@@ -24,7 +24,7 @@ namespace WebAPI.Test.Expenses.Register
         [Fact]
         public async Task Success()
         {
-            var request = RequestRegisterExpenseJsonBuilder.Build();
+            var request = RequestExpenseJsonBuilder.Build();
 
             var result = await DoPost(requestUri: METHOD, request: request, token: _token);
 
@@ -45,7 +45,7 @@ namespace WebAPI.Test.Expenses.Register
         [ClassData(typeof(CultureInlineDataTest))]
         public async Task ErrorTitleEmpty(string culture)
         {
-            var request = RequestRegisterExpenseJsonBuilder.Build();
+            var request = RequestExpenseJsonBuilder.Build();
 
             request.Title = string.Empty;
 

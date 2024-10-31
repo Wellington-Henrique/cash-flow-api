@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Projetos\\CashFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|d:\\projetos\\cashflow\\tests\\webapi.test\\expenses\\delete\\deleteexpensetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|solutionrelative:tests\\webapi.test\\expenses\\delete\\deleteexpensetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|d:\\projetos\\cashflow\\tests\\webapi.test\\expenses\\update\\updateexpensetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|solutionrelative:tests\\webapi.test\\expenses\\update\\updateexpensetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|d:\\projetos\\cashflow\\tests\\webapi.test\\expenses\\getbyid\\getexpensebyidtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,20 +70,20 @@
               "RelativeToolTip": "tests\\WebAPI.Test\\Expenses\\GetById\\GetExpenseByIdTest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T22:40:28.885Z",
+              "WhenOpened": "2024-10-31T23:19:25.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DeleteExpenseTest.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\Expenses\\Delete\\DeleteExpenseTest.cs",
-              "RelativeDocumentMoniker": "tests\\WebAPI.Test\\Expenses\\Delete\\DeleteExpenseTest.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\Expenses\\Delete\\DeleteExpenseTest.cs",
-              "RelativeToolTip": "tests\\WebAPI.Test\\Expenses\\Delete\\DeleteExpenseTest.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAgwB8AAABBAAAA",
+              "Title": "UpdateExpenseTest.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\Expenses\\Update\\UpdateExpenseTest.cs",
+              "RelativeDocumentMoniker": "tests\\WebAPI.Test\\Expenses\\Update\\UpdateExpenseTest.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\Expenses\\Update\\UpdateExpenseTest.cs",
+              "RelativeToolTip": "tests\\WebAPI.Test\\Expenses\\Update\\UpdateExpenseTest.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T22:40:10.662Z",
+              "WhenOpened": "2024-10-31T23:19:07.619Z",
               "EditorCaption": ""
             }
           ]

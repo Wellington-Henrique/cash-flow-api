@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using CashFlow.Communication.Requests;
-using CashFlow.Domain.Entities;
 using CashFlow.Domain.Repositories;
 using CashFlow.Domain.Repositories.Expenses;
 using CashFlow.Domain.Services.LoggedUser;
@@ -10,7 +9,7 @@ using System.Data;
 
 namespace CashFlow.Application.UseCases.Expenses.Update
 {
-    internal class UpdateExpenseUseCase : IUpdateExpenseUseCase
+    public class UpdateExpenseUseCase : IUpdateExpenseUseCase
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;

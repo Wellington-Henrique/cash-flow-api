@@ -15,7 +15,7 @@ namespace Validators.Tests.Expenses.Register
             //Arrange
             //Criar instâncias necessárias para a acriação do teste
             var validator = new ExpenseValidator();
-            var request = RequestRegisterExpenseJsonBuilder.Build();
+            var request = RequestExpenseJsonBuilder.Build();
             
             //Act
             //Ação, executar o método que será testado
@@ -31,7 +31,7 @@ namespace Validators.Tests.Expenses.Register
         {
             //Arrange
             var validator = new ExpenseValidator();
-            var request = RequestRegisterExpenseJsonBuilder.Build();
+            var request = RequestExpenseJsonBuilder.Build();
             
             request.Title = string.Empty;
 
@@ -48,7 +48,7 @@ namespace Validators.Tests.Expenses.Register
         {
             //Arrange
             var validator = new ExpenseValidator();
-            var request = RequestRegisterExpenseJsonBuilder.Build();
+            var request = RequestExpenseJsonBuilder.Build();
 
             request.Date = DateTime.UtcNow.AddDays(1);
 
@@ -65,7 +65,7 @@ namespace Validators.Tests.Expenses.Register
         {
             //Arrange
             var validator = new ExpenseValidator();
-            var request = RequestRegisterExpenseJsonBuilder.Build();
+            var request = RequestExpenseJsonBuilder.Build();
 
             request.PaymentType = (PaymentType)5;
 
@@ -84,7 +84,7 @@ namespace Validators.Tests.Expenses.Register
         {
             //Arrange
             var validator = new ExpenseValidator();
-            var request = RequestRegisterExpenseJsonBuilder.Build();
+            var request = RequestExpenseJsonBuilder.Build();
 
             request.Amount = amount;
 
@@ -104,7 +104,7 @@ namespace Validators.Tests.Expenses.Register
         {
             //Arrange
             var validator = new ExpenseValidator();
-            var request = RequestRegisterExpenseJsonBuilder.Build();
+            var request = RequestExpenseJsonBuilder.Build();
 
             request.Title = title;
 
