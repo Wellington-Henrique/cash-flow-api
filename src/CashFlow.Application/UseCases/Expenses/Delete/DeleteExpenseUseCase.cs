@@ -13,13 +13,13 @@ public class DeleteExpenseUseCase : IDeleteExpenseUseCase
     private readonly ILoggedUser _loggedUser;
 
     public DeleteExpenseUseCase(
-        IExpensesReadOnlyRepository readOnlyRepository,
         IExpensesWriteOnlyRepository writeOnlyRepository,
+        IExpensesReadOnlyRepository readOnlyRepository,
         IUnitOfWork unitOfWork,
         ILoggedUser loggedUser)
     {
-        _readOnlyRepository = readOnlyRepository;
         _writeOnlyRepository = writeOnlyRepository;
+        _readOnlyRepository = readOnlyRepository;
         _unitOfWork = unitOfWork;
         _loggedUser = loggedUser;
     }
