@@ -31,6 +31,6 @@ public class UserController : ControllerBase
     {
         var response = await useCase.Execute();
 
-        return Created(string.Empty, response);
+        return Ok(response);
     }
 }
