@@ -1,0 +1,49 @@
+﻿using CashFlow.Application.UseCases.Expenses.Reports.Excel;
+using CashFlow.Application.UseCases.Expenses.Reports.Pdf;
+using CashFlow.Domain.Entities;
+using CommonTestUtilities.Entities;
+using CommonTestUtilities.Repositories;
+using FluentAssertions;
+
+namespace UseCases.Test.Expenses.Reports.Pdf
+{
+    public class GetExpenseReportPdfUseCaseTest
+    {
+        [Fact]
+        public async Task Success()
+        {
+            var loggedUser = UserBuilder.Build();
+            var expenses = ExpenseBuilder.Collection(loggedUser);
+
+            var useCase = CreateUseCase(loggedUser, expenses);
+
+            var result = await useCase.Execute(DateOnly.FromDateTime(DateTime.Today));
+
+            result.Should().NotBeNullOrEmpty();
+        }
+
+        [Fact]
+        public async Task SuccessEmpty()
+        {
+            var loggedUser = UserBuilder.Build();
+            var expenses = new List<Expense>();
+
+            var useCase = CreateUseCase(loggedUser, expenses);
+
+            var result = await useCase.Execute(DateOnly.FromDateTime(DateTime.Today));
+
+            result.Should().BeEmpty();
+        }
+
+        private GenerateExpensesReportPdfUseCase CreateUseCase(User user, List<Expense> expenses)
+        {
+            var repository = new ExpensesReadOnlyRepositoryBuilder()
+                                    .FilterByMonth(user, expenses)
+                                    .Build();
+
+            var loggedUser = LoggedUserBuilder.Build(user);
+
+            return new GenerateExpensesReportPdfUseCase(repository, loggedUser);
+        }
+    }
+}

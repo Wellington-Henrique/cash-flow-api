@@ -7,13 +7,13 @@ using ClosedXML.Excel;
 
 namespace CashFlow.Application.UseCases.Expenses.Reports.Excel
 {
-    internal class GenerateExpenseReportExcelUseCase : IGenerateExpensesReportExcelUseCase
+    public class GenerateExpensesReportExcelUseCase : IGenerateExpensesReportExcelUseCase
     {
         private readonly IExpensesReadOnlyRepository _expensesReadOnlyRepository;
         private const string CURRENCY_SYMBOL = "€";
         private readonly ILoggedUser _loggedUser;
 
-        public GenerateExpenseReportExcelUseCase(
+        public GenerateExpensesReportExcelUseCase(
             IExpensesReadOnlyRepository expensesReadOnlyRepository,
             ILoggedUser loggedUser
             )

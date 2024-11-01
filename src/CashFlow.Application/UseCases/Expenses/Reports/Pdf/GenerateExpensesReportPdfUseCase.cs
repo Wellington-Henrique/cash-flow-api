@@ -13,14 +13,14 @@ using System.Reflection;
 
 namespace CashFlow.Application.UseCases.Expenses.Reports.Pdf
 {
-    internal class GenerateExpensesRetportPdfUseCase : IGenerateExpensesRetportPdfUseCase
+    public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCase
     {
         private readonly IExpensesReadOnlyRepository _expensesReadOnlyRepository;
         private const string CURRENCY_SYMBOL = "€";
         private const int HEIGHT_ROW_EXPENSE_TABLE = 25;
         private readonly ILoggedUser _loggedUser;
 
-        public GenerateExpensesRetportPdfUseCase(
+        public GenerateExpensesReportPdfUseCase(
             IExpensesReadOnlyRepository expensesReadOnlyRepository,
             ILoggedUser loggedUser
             )

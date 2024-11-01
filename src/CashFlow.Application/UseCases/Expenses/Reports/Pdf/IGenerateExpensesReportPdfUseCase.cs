@@ -1,6 +1,6 @@
 ﻿namespace CashFlow.Application.UseCases.Expenses.Reports.Pdf
 {
-    public interface IGenerateExpensesRetportPdfUseCase
+    public interface IGenerateExpensesReportPdfUseCase
     {
         Task<byte[]> Execute(DateOnly month);
     }
