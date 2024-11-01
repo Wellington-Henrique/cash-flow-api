@@ -32,7 +32,7 @@ namespace CashFlow.Application.UseCases.Users.UpdateProfile
         {
             var loggedUser = await _loggedUser.Get();
 
-            Validate(request, loggedUser.Email);
+            await Validate(request, loggedUser.Email);
 
             var user = await _userUpdateOnlyRepository.GetById(loggedUser.Id);
 
@@ -43,7 +43,7 @@ namespace CashFlow.Application.UseCases.Users.UpdateProfile
             await _unitOfWork.Commit();
         }
 
-        private async void Validate(RequestUpdateUserJson request, string currentEmail)
+        private async Task Validate(RequestUpdateUserJson request, string currentEmail)
         {
             var validator = new UpdateUserValidator();
 
