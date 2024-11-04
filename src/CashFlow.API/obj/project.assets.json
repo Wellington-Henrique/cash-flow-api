@@ -2648,6 +2648,9 @@
       "CashFlow.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CashFlow.Communication": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CashFlow.Domain.dll": {}
         },

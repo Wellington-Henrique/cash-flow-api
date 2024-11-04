@@ -918,6 +918,9 @@
         }
       },
       "CashFlow.Domain/1.0.0": {
+        "dependencies": {
+          "CashFlow.Communication": "1.0.0"
+        },
         "runtime": {
           "CashFlow.Domain.dll": {}
         },

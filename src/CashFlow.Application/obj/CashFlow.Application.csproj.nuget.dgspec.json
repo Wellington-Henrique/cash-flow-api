@@ -243,7 +243,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Projetos\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj": {
+                "projectPath": "D:\\Projetos\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

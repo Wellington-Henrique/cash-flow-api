@@ -15,3 +15,10 @@ D:\Projetos\CashFlow\src\CashFlowDomain\obj\Debug\net8.0\CashFlow.Domain.dll
 D:\Projetos\CashFlow\src\CashFlowDomain\obj\Debug\net8.0\refint\CashFlow.Domain.dll
 D:\Projetos\CashFlow\src\CashFlowDomain\obj\Debug\net8.0\CashFlow.Domain.pdb
 D:\Projetos\CashFlow\src\CashFlowDomain\obj\Debug\net8.0\ref\CashFlow.Domain.dll
+D:\Projetos\CashFlow\src\CashFlowDomain\bin\Debug\net8.0\CashFlow.Communication.dll
+D:\Projetos\CashFlow\src\CashFlowDomain\bin\Debug\net8.0\CashFlow.Exception.dll
+D:\Projetos\CashFlow\src\CashFlowDomain\bin\Debug\net8.0\CashFlow.Communication.pdb
+D:\Projetos\CashFlow\src\CashFlowDomain\bin\Debug\net8.0\CashFlow.Exception.pdb
+D:\Projetos\CashFlow\src\CashFlowDomain\bin\Debug\net8.0\pt-BR\CashFlow.Exception.resources.dll
+D:\Projetos\CashFlow\src\CashFlowDomain\obj\Debug\net8.0\CashFlow.Domain.csproj.AssemblyReference.cache
+D:\Projetos\CashFlow\src\CashFlowDomain\obj\Debug\net8.0\CashFlow.F5D3499C.Up2Date
