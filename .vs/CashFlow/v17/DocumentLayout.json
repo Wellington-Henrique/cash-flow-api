@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Projetos\\CashFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|d:\\projetos\\cashflow\\tests\\webapi.test\\users\\delete\\deleteaccounttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|solutionrelative:tests\\webapi.test\\users\\delete\\deleteaccounttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B80038F-459C-4A32-987D-BBC9FB2B6391}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|d:\\projetos\\cashflow\\src\\cashflow.infrastructure\\migrations\\20241105013347_tagsintoexpenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B80038F-459C-4A32-987D-BBC9FB2B6391}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\migrations\\20241105013347_tagsintoexpenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7CC8F96-C42A-49CE-8ED1-158CC6E90C95}|src\\CashFlow.API\\CashFlow.API.csproj|d:\\projetos\\cashflow\\src\\cashflow.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7CC8F96-C42A-49CE-8ED1-158CC6E90C95}|src\\CashFlow.API\\CashFlow.API.csproj|solutionrelative:src\\cashflow.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B80038F-459C-4A32-987D-BBC9FB2B6391}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|d:\\projetos\\cashflow\\src\\cashflow.infrastructure\\dataaccess\\cashflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B80038F-459C-4A32-987D-BBC9FB2B6391}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\dataaccess\\cashflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|d:\\projetos\\cashflow\\tests\\webapi.test\\users\\changepassword\\changepasswordtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACF8E903-ED18-422C-B982-B54117ECB039}|tests\\WebAPI.Test\\WebAPI.Test.csproj|solutionrelative:tests\\webapi.test\\users\\changepassword\\changepasswordtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA47B33F-D68E-4531-B0B4-30E3C2A9C09F}|src\\CashFlowDomain\\CashFlow.Domain.csproj|d:\\projetos\\cashflow\\src\\cashflowdomain\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA47B33F-D68E-4531-B0B4-30E3C2A9C09F}|src\\CashFlowDomain\\CashFlow.Domain.csproj|solutionrelative:src\\cashflowdomain\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA47B33F-D68E-4531-B0B4-30E3C2A9C09F}|src\\CashFlowDomain\\CashFlow.Domain.csproj|d:\\projetos\\cashflow\\src\\cashflowdomain\\entities\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA47B33F-D68E-4531-B0B4-30E3C2A9C09F}|src\\CashFlowDomain\\CashFlow.Domain.csproj|solutionrelative:src\\cashflowdomain\\entities\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,41 +70,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChangePasswordTest.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\Users\\ChangePassword\\ChangePasswordTest.cs",
-              "RelativeDocumentMoniker": "tests\\WebAPI.Test\\Users\\ChangePassword\\ChangePasswordTest.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\Users\\ChangePassword\\ChangePasswordTest.cs",
-              "RelativeToolTip": "tests\\WebAPI.Test\\Users\\ChangePassword\\ChangePasswordTest.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwB0AAAAJAAAA",
+              "DocumentIndex": 0,
+              "Title": "20241105013347_TagsIntoExpenses.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infrastructure\\Migrations\\20241105013347_TagsIntoExpenses.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\Migrations\\20241105013347_TagsIntoExpenses.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infrastructure\\Migrations\\20241105013347_TagsIntoExpenses.cs",
+              "RelativeToolTip": "src\\CashFlow.Infrastructure\\Migrations\\20241105013347_TagsIntoExpenses.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAgwE0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T00:34:28.189Z",
+              "WhenOpened": "2024-11-05T01:34:23.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.API\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "src\\CashFlow.API\\Controllers\\UserController.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAmwEcAAAAEAAAA",
+              "Title": "CashFlowDbContext.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
+              "RelativeToolTip": "src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T00:59:36.745Z",
+              "WhenOpened": "2024-11-05T01:24:19.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DeleteAccountTest.cs",
-              "DocumentMoniker": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\Users\\Delete\\DeleteAccountTest.cs",
-              "RelativeDocumentMoniker": "tests\\WebAPI.Test\\Users\\Delete\\DeleteAccountTest.cs",
-              "ToolTip": "D:\\Projetos\\CashFlow\\tests\\WebAPI.Test\\Users\\Delete\\DeleteAccountTest.cs",
-              "RelativeToolTip": "tests\\WebAPI.Test\\Users\\Delete\\DeleteAccountTest.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAwBUAAAAMAAAA",
+              "DocumentIndex": 3,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlowDomain\\Entities\\Expense.cs",
+              "RelativeDocumentMoniker": "src\\CashFlowDomain\\Entities\\Expense.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlowDomain\\Entities\\Expense.cs",
+              "RelativeToolTip": "src\\CashFlowDomain\\Entities\\Expense.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T01:00:17.622Z",
+              "WhenOpened": "2024-11-05T01:20:25.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "D:\\Projetos\\CashFlow\\src\\CashFlowDomain\\Entities\\Tag.cs",
+              "RelativeDocumentMoniker": "src\\CashFlowDomain\\Entities\\Tag.cs",
+              "ToolTip": "D:\\Projetos\\CashFlow\\src\\CashFlowDomain\\Entities\\Tag.cs",
+              "RelativeToolTip": "src\\CashFlowDomain\\Entities\\Tag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T01:13:04.458Z",
               "EditorCaption": ""
             }
           ]

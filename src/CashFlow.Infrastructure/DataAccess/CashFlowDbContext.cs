@@ -12,5 +12,13 @@ namespace CashFlow.Infrastructure.DataAccess
 
         public DbSet<Expense> Expenses { get; set; }
         public DbSet<User> Users { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // Impede o acesso direto a tabela Tags, mas garante o uso da FK
+            modelBuilder.Entity<Tag>().ToTable("Tags");
+        }
     }
 }
