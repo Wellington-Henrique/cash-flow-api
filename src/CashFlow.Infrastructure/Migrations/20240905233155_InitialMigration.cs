@@ -59,7 +59,8 @@ namespace CashFlow.Infrastructure.Migrations
                         name: "FK_Expenses_User_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade); 
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
