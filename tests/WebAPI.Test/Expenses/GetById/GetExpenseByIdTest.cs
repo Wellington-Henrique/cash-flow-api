@@ -62,6 +62,12 @@ namespace WebAPI.Test.Expenses.GetById
                 .Should()
                 .BeGreaterThan(0);
 
+            response.RootElement
+                .GetProperty("tags")
+                .EnumerateArray()
+                .Should()
+                .NotBeNullOrEmpty();
+
             var paymentType = response.RootElement
                 .GetProperty("paymentType")
                 .GetInt32();

@@ -1,22 +1,21 @@
 ﻿using CashFlow.Application.UseCases.Expenses;
-using CashFlow.Application.UseCases.Expenses.Register;
 using CashFlow.Communication.Enums;
 using CashFlow.Exception;
-using Validators.Tests.Requests;
 using FluentAssertions;
+using Validators.Tests.Requests;
 
-namespace Validators.Tests.Expenses.Register
+namespace Validators.Tests.Expenses
 {
-    public class RegisterExpenseValidatorTests
+    public class ExpenseValidatorTests
     {
         [Fact]
         public void Success()
         {
             //Arrange
-            //Criar instâncias necessárias para a acriação do teste
+            //Criar instâncias necessárias para a criação do teste
             var validator = new ExpenseValidator();
             var request = RequestExpenseJsonBuilder.Build();
-            
+
             //Act
             //Ação, executar o método que será testado
             var result = validator.Validate(request);
@@ -32,12 +31,12 @@ namespace Validators.Tests.Expenses.Register
             //Arrange
             var validator = new ExpenseValidator();
             var request = RequestExpenseJsonBuilder.Build();
-            
+
             request.Title = string.Empty;
 
             //Act
             var result = validator.Validate(request);
-            
+
             //Assert
             result.IsValid.Should().BeFalse();
             result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.TITLE_REQUIRED));
@@ -114,6 +113,23 @@ namespace Validators.Tests.Expenses.Register
             //Assert
             result.IsValid.Should().BeFalse();
             result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.TITLE_REQUIRED));
+        }
+
+        [Fact]
+        public void ErrorTagInvalid()
+        {
+            //Arrange
+            var validator = new ExpenseValidator();
+            var request = RequestExpenseJsonBuilder.Build();
+
+            request.Tags.Add((Tag)1000);
+
+            //Act
+            var result = validator.Validate(request);
+
+            //Assert
+            result.IsValid.Should().BeFalse();
+            result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.TAG_TYPE_NOT_SUPPORTED));
         }
     }
 }
